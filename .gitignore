@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+.env
+.venv*/
+.env*/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Dados/artefatos grandes (mantidos fora do Git)
+datasets/
+raw_data/
+reports/*.html
+reports/*.pdf
+*.parquet
+*.csv
+*.xlsx
+*.zip
+
+# VS Code
+.vscode/

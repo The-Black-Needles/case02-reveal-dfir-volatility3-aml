@@ -1,0 +1,11 @@
+pandas
+numpy
+jupyter
+matplotlib
+seaborn
+scikit-learn
+pyarrow
+polars
+requests
+python-dotenv
+volatility3
