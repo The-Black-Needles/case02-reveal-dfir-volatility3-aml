@@ -1,0 +1,141 @@
+==== CANDIDATES ====
+SUS1=443  SUS2=07
+
+==== PSTREE CONTEXT for PID 443 ====
+--- pstree.txt lines 92..98 ---
+**** 6404	5488	msedge.exe	0xc90c0cbbd300	15	-	1	False	2024-07-15 06:58:52.000000 UTC	N/A	\Device\HarddiskVolume3\Program Files (x86)\Microsoft\Edge\Application\msedge.exe	-	-
+**** 5768	5488	msedge.exe	0xc90c08eed080	16	-	1	False	2024-07-04 10:45:14.000000 UTC	N/A	\Device\HarddiskVolume3\Program Files (x86)\Microsoft\Edge\Application\msedge.exe	-	-
+**** 1200	5488	msedge.exe	0xc90c03540080	17	-	1	False	2024-07-15 04:02:53.000000 UTC	N/A	\Device\HarddiskVolume3\Program Files (x86)\Microsoft\Edge\Application\msedge.exe	-	-
+**** 4464	5488	msedge.exe	0xc90c0963b080	17	-	1	False	2024-07-15 04:17:28.000000 UTC	N/A	\Device\HarddiskVolume3\Program Files (x86)\Microsoft\Edge\Application\msedge.exe	"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=renderer --disable-gpu-compositing --lang=en-US --js-flags=--ms-user-locale= --device-scale-factor=1 --num-raster-threads=1 --renderer-client-id=145 --time-ticks-at-unix-epoch=-1720089883345586 --launch-time-ticks=1128944393 --field-trial-handle=10996,i,4550380774351628999,14075719362826743519,262144 --variations-seed-version --mojo-platform-channel-handle=9344 /prefetch:1	C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+**** 1880	5488	msedge.exe	0xc90c0963a080	17	-	1	False	2024-07-15 04:19:01.000000 UTC	N/A	\Device\HarddiskVolume3\Program Files (x86)\Microsoft\Edge\Application\msedge.exe	"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=renderer --disable-gpu-compositing --lang=en-US --js-flags=--ms-user-locale= --device-scale-factor=1 --num-raster-threads=1 --renderer-client-id=153 --time-ticks-at-unix-epoch=-1720089883345586 --launch-time-ticks=1222488836 --field-trial-handle=10948,i,4550380774351628999,14075719362826743519,262144 --variations-seed-version --mojo-platform-channel-handle=7820 /prefetch:1	C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+**** 5780	5488	msedge.exe	0xc90c092ec080	18	-	1	False	2024-07-04 10:45:14.000000 UTC	N/A	\Device\HarddiskVolume3\Program Files (x86)\Microsoft\Edge\Application\msedge.exe	"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --field-trial-handle=1928,i,4550380774351628999,14075719362826743519,262144 --variations-seed-version --mojo-platform-channel-handle=2684 /prefetch:3	C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+**** 7540	5488	msedge.exe	0xc90c095da080	18	-	1	False	2024-07-04 10:45:35.000000 UTC	N/A	\Device\HarddiskVolume3\Program Files (x86)\Microsoft\Edge\Application\msedge.exe	-	-
+
+==== PSTREE CONTEXT for PID 07 ====
+--- pstree.txt lines 2..8 ---
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+4	0	System	0xc90c0345b040	138	-	N/A	False	2024-07-04 10:44:48.000000 UTC	N/A	-	-	-
+* 1452	4	MemCompression	0xc90c03551040	66	-	N/A	False	2024-07-04 10:44:51.000000 UTC	N/A	MemCompression	-	-
+* 92	4	Registry	0xc90c0349e080	4	-	N/A	False	2024-07-04 10:44:43.000000 UTC	N/A	Registry	-	-
+* 300	4	smss.exe	0xc90c06148040	2	-	N/A	False	2024-07-04 10:44:48.000000 UTC	N/A	\Device\HarddiskVolume3\Windows\System32\smss.exe	-	-
+
+--- pstree.txt lines 3..9 ---
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+4	0	System	0xc90c0345b040	138	-	N/A	False	2024-07-04 10:44:48.000000 UTC	N/A	-	-	-
+* 1452	4	MemCompression	0xc90c03551040	66	-	N/A	False	2024-07-04 10:44:51.000000 UTC	N/A	MemCompression	-	-
+* 92	4	Registry	0xc90c0349e080	4	-	N/A	False	2024-07-04 10:44:43.000000 UTC	N/A	Registry	-	-
+* 300	4	smss.exe	0xc90c06148040	2	-	N/A	False	2024-07-04 10:44:48.000000 UTC	N/A	\Device\HarddiskVolume3\Windows\System32\smss.exe	-	-
+416	404	csrss.exe	0xc90c070af140	11	-	0	False	2024-07-04 10:44:50.000000 UTC	N/A	\Device\HarddiskVolume3\Windows\System32\csrss.exe	%SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16	C:\Windows\system32\csrss.exe
+
+--- pstree.txt lines 4..10 ---
+
+4	0	System	0xc90c0345b040	138	-	N/A	False	2024-07-04 10:44:48.000000 UTC	N/A	-	-	-
+* 1452	4	MemCompression	0xc90c03551040	66	-	N/A	False	2024-07-04 10:44:51.000000 UTC	N/A	MemCompression	-	-
+* 92	4	Registry	0xc90c0349e080	4	-	N/A	False	2024-07-04 10:44:43.000000 UTC	N/A	Registry	-	-
+* 300	4	smss.exe	0xc90c06148040	2	-	N/A	False	2024-07-04 10:44:48.000000 UTC	N/A	\Device\HarddiskVolume3\Windows\System32\smss.exe	-	-
+416	404	csrss.exe	0xc90c070af140	11	-	0	False	2024-07-04 10:44:50.000000 UTC	N/A	\Device\HarddiskVolume3\Windows\System32\csrss.exe	%SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16	C:\Windows\system32\csrss.exe
+492	404	wininit.exe	0xc90c07164080	1	-	0	False	2024-07-04 10:44:50.000000 UTC	N/A	\Device\HarddiskVolume3\Windows\System32\wininit.exe	-	-
+
+==== PSTREE CONTEXT for PID 443 ====
+--- pstree.txt lines 92..98 ---
+**** 6404	5488	msedge.exe	0xc90c0cbbd300	15	-	1	False	2024-07-15 06:58:52.000000 UTC	N/A	\Device\HarddiskVolume3\Program Files (x86)\Microsoft\Edge\Application\msedge.exe	-	-
+**** 5768	5488	msedge.exe	0xc90c08eed080	16	-	1	False	2024-07-04 10:45:14.000000 UTC	N/A	\Device\HarddiskVolume3\Program Files (x86)\Microsoft\Edge\Application\msedge.exe	-	-
+**** 1200	5488	msedge.exe	0xc90c03540080	17	-	1	False	2024-07-15 04:02:53.000000 UTC	N/A	\Device\HarddiskVolume3\Program Files (x86)\Microsoft\Edge\Application\msedge.exe	-	-
+**** 4464	5488	msedge.exe	0xc90c0963b080	17	-	1	False	2024-07-15 04:17:28.000000 UTC	N/A	\Device\HarddiskVolume3\Program Files (x86)\Microsoft\Edge\Application\msedge.exe	"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=renderer --disable-gpu-compositing --lang=en-US --js-flags=--ms-user-locale= --device-scale-factor=1 --num-raster-threads=1 --renderer-client-id=145 --time-ticks-at-unix-epoch=-1720089883345586 --launch-time-ticks=1128944393 --field-trial-handle=10996,i,4550380774351628999,14075719362826743519,262144 --variations-seed-version --mojo-platform-channel-handle=9344 /prefetch:1	C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+**** 1880	5488	msedge.exe	0xc90c0963a080	17	-	1	False	2024-07-15 04:19:01.000000 UTC	N/A	\Device\HarddiskVolume3\Program Files (x86)\Microsoft\Edge\Application\msedge.exe	"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=renderer --disable-gpu-compositing --lang=en-US --js-flags=--ms-user-locale= --device-scale-factor=1 --num-raster-threads=1 --renderer-client-id=153 --time-ticks-at-unix-epoch=-1720089883345586 --launch-time-ticks=1222488836 --field-trial-handle=10948,i,4550380774351628999,14075719362826743519,262144 --variations-seed-version --mojo-platform-channel-handle=7820 /prefetch:1	C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+**** 5780	5488	msedge.exe	0xc90c092ec080	18	-	1	False	2024-07-04 10:45:14.000000 UTC	N/A	\Device\HarddiskVolume3\Program Files (x86)\Microsoft\Edge\Application\msedge.exe	"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --field-trial-handle=1928,i,4550380774351628999,14075719362826743519,262144 --variations-seed-version --mojo-platform-channel-handle=2684 /prefetch:3	C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+**** 7540	5488	msedge.exe	0xc90c095da080	18	-	1	False	2024-07-04 10:45:35.000000 UTC	N/A	\Device\HarddiskVolume3\Program Files (x86)\Microsoft\Edge\Application\msedge.exe	-	-
+
+==== PSTREE CONTEXT for PID 07 ====
+--- pstree.txt lines 2..8 ---
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+4	0	System	0xc90c0345b040	138	-	N/A	False	2024-07-04 10:44:48.000000 UTC	N/A	-	-	-
+* 1452	4	MemCompression	0xc90c03551040	66	-	N/A	False	2024-07-04 10:44:51.000000 UTC	N/A	MemCompression	-	-
+* 92	4	Registry	0xc90c0349e080	4	-	N/A	False	2024-07-04 10:44:43.000000 UTC	N/A	Registry	-	-
+* 300	4	smss.exe	0xc90c06148040	2	-	N/A	False	2024-07-04 10:44:48.000000 UTC	N/A	\Device\HarddiskVolume3\Windows\System32\smss.exe	-	-
+
+--- pstree.txt lines 3..9 ---
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+4	0	System	0xc90c0345b040	138	-	N/A	False	2024-07-04 10:44:48.000000 UTC	N/A	-	-	-
+* 1452	4	MemCompression	0xc90c03551040	66	-	N/A	False	2024-07-04 10:44:51.000000 UTC	N/A	MemCompression	-	-
+* 92	4	Registry	0xc90c0349e080	4	-	N/A	False	2024-07-04 10:44:43.000000 UTC	N/A	Registry	-	-
+* 300	4	smss.exe	0xc90c06148040	2	-	N/A	False	2024-07-04 10:44:48.000000 UTC	N/A	\Device\HarddiskVolume3\Windows\System32\smss.exe	-	-
+416	404	csrss.exe	0xc90c070af140	11	-	0	False	2024-07-04 10:44:50.000000 UTC	N/A	\Device\HarddiskVolume3\Windows\System32\csrss.exe	%SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16	C:\Windows\system32\csrss.exe
+
+--- pstree.txt lines 4..10 ---
+
+4	0	System	0xc90c0345b040	138	-	N/A	False	2024-07-04 10:44:48.000000 UTC	N/A	-	-	-
+* 1452	4	MemCompression	0xc90c03551040	66	-	N/A	False	2024-07-04 10:44:51.000000 UTC	N/A	MemCompression	-	-
+* 92	4	Registry	0xc90c0349e080	4	-	N/A	False	2024-07-04 10:44:43.000000 UTC	N/A	Registry	-	-
+* 300	4	smss.exe	0xc90c06148040	2	-	N/A	False	2024-07-04 10:44:48.000000 UTC	N/A	\Device\HarddiskVolume3\Windows\System32\smss.exe	-	-
+416	404	csrss.exe	0xc90c070af140	11	-	0	False	2024-07-04 10:44:50.000000 UTC	N/A	\Device\HarddiskVolume3\Windows\System32\csrss.exe	%SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16	C:\Windows\system32\csrss.exe
+492	404	wininit.exe	0xc90c07164080	1	-	0	False	2024-07-04 10:44:50.000000 UTC	N/A	\Device\HarddiskVolume3\Windows\System32\wininit.exe	-	-
+
+==== PSLIST LINES for PID 443 ====
+
+==== PSLIST LINES for PID 07 ====
+5:4	0	System	0xc90c0345b040	138	-	N/A	False	2024-07-04 10:44:48.000000 UTC	N/A	Disabled
+6:92	4	Registry	0xc90c0349e080	4	-	N/A	False	2024-07-04 10:44:43.000000 UTC	N/A	Disabled
+7:300	4	smss.exe	0xc90c06148040	2	-	N/A	False	2024-07-04 10:44:48.000000 UTC	N/A	Disabled
+8:416	404	csrss.exe	0xc90c070af140	11	-	0	False	2024-07-04 10:44:50.000000 UTC	N/A	Disabled
+9:492	404	wininit.exe	0xc90c07164080	1	-	0	False	2024-07-04 10:44:50.000000 UTC	N/A	Disabled
+
+==== NETSCAN EXTERNAL for PID 443 ====
+29:0xc90c08be9b40	TCPv4	192.168.19.150	51037	191.237.206.80	443	ESTABLISHED	2820	smartscreen.ex	2024-07-15 06:59:57.000000 UTC
+30:0xc90c09710a70	TCPv4	192.168.19.150	49948	13.107.6.156	443	ESTABLISHED	6780	WWAHost.exe	2024-07-04 10:46:50.000000 UTC
+31:0xc90c09873af0	TCPv4	192.168.19.150	49955	93.186.134.98	443	ESTABLISHED	6780	WWAHost.exe	2024-07-04 10:46:51.000000 UTC
+33:0xc90c0c557b00	TCPv4	192.168.19.150	51003	13.74.129.92	443	ESTABLISHED	440	svchost.exe	2024-07-15 06:58:24.000000 UTC
+34:0xc90c0c8d6b00	TCPv4	192.168.19.150	51004	23.44.141.39	443	ESTABLISHED	440	svchost.exe	2024-07-15 06:58:25.000000 UTC
+
+==== NETSCAN EXTERNAL for PID 07 ====
+1:0xc90c034af310	TCPv4	0.0.0.0	49668	0.0.0.0	0	LISTENING	1864	spoolsv.exe	2024-07-04 10:44:52.000000 UTC
+2:0xc90c034af470	TCPv4	0.0.0.0	5040	0.0.0.0	0	LISTENING	1112	svchost.exe	2024-07-04 10:45:00.000000 UTC
+3:0xc90c034af5d0	TCPv4	0.0.0.0	49668	0.0.0.0	0	LISTENING	1864	spoolsv.exe	2024-07-04 10:44:52.000000 UTC
+4:0xc90c034af5d0	TCPv6	::	49668	::	0	LISTENING	1864	spoolsv.exe	2024-07-04 10:44:52.000000 UTC
+5:0xc90c03577010	TCPv4	192.168.19.150	51035	196.204.4.8	80	ESTABLISHED	1260	svchost.exe	2024-07-15 06:59:22.000000 UTC
+6:0xc90c03add0d0	TCPv4	0.0.0.0	49667	0.0.0.0	0	LISTENING	440	svchost.exe	2024-07-04 10:44:51.000000 UTC
+7:0xc90c03add0d0	TCPv6	::	49667	::	0	LISTENING	440	svchost.exe	2024-07-04 10:44:51.000000 UTC
+8:0xc90c03efbcb0	TCPv4	0.0.0.0	49670	0.0.0.0	0	LISTENING	628	services.exe	2024-07-04 10:44:52.000000 UTC
+9:0xc90c03efc230	TCPv4	0.0.0.0	445	0.0.0.0	0	LISTENING	4	System	2024-07-04 10:44:53.000000 UTC
+10:0xc90c03efc230	TCPv6	::	445	::	0	LISTENING	4	System	2024-07-04 10:44:53.000000 UTC
+
+==== MALFIND BLOCK for PID 443 ====
+
+==== MALFIND BLOCK for PID 07 ====
+63:08 41 d7 07 0c 00 00 00 10 68 2a 4e ff 7f 00 00 .A.......h*N....
+64:20 40 11 4e ff 7f 00 00 d0 d3 36 4e ff 7f 00 00  @.N......6N....	d8 ff ff ff ff ff ff ff 08 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 02 0e 03 38 00 00 00 08 41 d7 07 0c 00 00 00 10 68 2a 4e ff 7f 00 00 20 40 11 4e ff 7f 00 00 d0 d3 36 4e ff 7f 00 00
+
+==== TIMELINER for PID 443 () ====
+3407:ThrdScan	Thread: Tid 4436 in Pid 4356 (Offset 221053524291712)	2024-07-04 10:45:02.000000 UTC	1600-10-23 01:37:34.000000 UTC	N/A	N/A
+3431:Threads	Thread: Tid 4436 in Pid 4356 (Offset 221053524291712)	2024-07-04 10:45:02.000000 UTC	1600-10-23 01:37:34.000000 UTC	N/A	N/A
+3456:ThrdScan	Thread: Tid 4436 in Pid 4356 (Offset 221053524291712)	2024-07-04 10:45:02.000000 UTC	N/A	N/A	N/A
+3481:Threads	Thread: Tid 4436 in Pid 4356 (Offset 221053524291712)	2024-07-04 10:45:02.000000 UTC	N/A	N/A	N/A
+
+==== TIMELINER for PID 07 (svchost.exe) ====
+591:PsList	Process: 764 svchost.exe (221053506744896)	2024-07-04 10:44:50.000000 UTC	N/A	N/A	N/A
+592:PsList	Process: 764 svchost.exe (221053506744896)	2024-07-04 10:44:50.000000 UTC	N/A	N/A	N/A
+593:PsList	Process: 872 svchost.exe (221053507269312)	2024-07-04 10:44:50.000000 UTC	N/A	N/A	N/A
+594:PsList	Process: 872 svchost.exe (221053507269312)	2024-07-04 10:44:50.000000 UTC	N/A	N/A	N/A
+613:PsScan	Process: 764 svchost.exe (221053506744896)	2024-07-04 10:44:50.000000 UTC	N/A	N/A	N/A
+614:PsScan	Process: 764 svchost.exe (221053506744896)	2024-07-04 10:44:50.000000 UTC	N/A	N/A	N/A
+615:PsScan	Process: 872 svchost.exe (221053507269312)	2024-07-04 10:44:50.000000 UTC	N/A	N/A	N/A
+616:PsScan	Process: 872 svchost.exe (221053507269312)	2024-07-04 10:44:50.000000 UTC	N/A	N/A	N/A
+770:Sessions	Process: 764 svchost.exe started by user WORKGROUP/DESKTOP-T51LU0E$	2024-07-04 10:44:50.000000 UTC	N/A	N/A	N/A
+771:Sessions	Process: 872 svchost.exe started by user WORKGROUP/DESKTOP-T51LU0E$	2024-07-04 10:44:50.000000 UTC	N/A	N/A	N/A
+10229:ThrdScan	Thread: Tid 2936 in Pid 7792 (Offset 221053585776704)	2024-07-15 07:00:00.000000 UTC	1600-10-23 01:37:40.000000 UTC	N/A	N/A
+10230:Threads	Thread: Tid 2936 in Pid 7792 (Offset 221053585776704)	2024-07-15 07:00:00.000000 UTC	1600-10-23 01:37:40.000000 UTC	N/A	N/A
+10231:ThrdScan	Thread: Tid 2936 in Pid 7792 (Offset 221053585776704)	2024-07-15 07:00:00.000000 UTC	N/A	N/A	N/A
+10232:Threads	Thread: Tid 2936 in Pid 7792 (Offset 221053585776704)	2024-07-15 07:00:00.000000 UTC	N/A	N/A	N/A
+10233:ScheduledTasks	ScheduledTasks: Creation Time for task {ED77AEE0-EAFB-4133-B544-9E7C5632D902} with trigger N/A	2024-07-15 07:00:00.000000 UTC	N/A	N/A	N/A
+10234:ThrdScan	Thread: Tid 8372 in Pid 3656 (Offset 221053431976064)	2024-07-15 07:00:03.000000 UTC	1600-10-23 01:37:25.000000 UTC	N/A	N/A
+10235:ThrdScan	Thread: Tid 1440 in Pid 3692 (Offset 221053432463488)	2024-07-15 07:00:03.000000 UTC	1600-10-23 01:37:25.000000 UTC	N/A	N/A
+10236:Threads	Thread: Tid 8372 in Pid 3656 (Offset 221053431976064)	2024-07-15 07:00:03.000000 UTC	1600-10-23 01:37:25.000000 UTC	N/A	N/A
+10237:Threads	Thread: Tid 1440 in Pid 3692 (Offset 221053432463488)	2024-07-15 07:00:03.000000 UTC	1600-10-23 01:37:25.000000 UTC	N/A	N/A
+10238:ThrdScan	Thread: Tid 624 in Pid 9112 (Offset 221053504893056)	2024-07-15 07:00:03.000000 UTC	1600-10-23 01:37:32.000000 UTC	N/A	N/A
+

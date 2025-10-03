@@ -1,0 +1,83 @@
+5:ScheduledTasks	ScheduledTasks: Creation Time for task {12514C9A-1DE5-40CE-B66C-D6838DA9A169} with trigger N/A	2024-07-04 10:34:35.000000 UTC	N/A	N/A	N/A
+6:ScheduledTasks	ScheduledTasks: Creation Time for task {15E69FB7-BC19-4737-A3DF-0700D3959249} with trigger WNF state 7518bca3391e8b41	2024-07-04 10:34:44.000000 UTC	N/A	N/A	N/A
+7:ScheduledTasks	ScheduledTasks: Creation Time for task {15E69FB7-BC19-4737-A3DF-0700D3959249} with trigger WNF state 7560bca322028f02	2024-07-04 10:34:44.000000 UTC	N/A	N/A	N/A
+8:ScheduledTasks	ScheduledTasks: Creation Time for task {15E69FB7-BC19-4737-A3DF-0700D3959249} with trigger WNF state 7510bca3391e8b41	2024-07-04 10:34:44.000000 UTC	N/A	N/A	N/A
+9:ScheduledTasks	ScheduledTasks: Creation Time for task {15E69FB7-BC19-4737-A3DF-0700D3959249} with trigger WNF state 3528bca32e1d8e0d	2024-07-04 10:34:44.000000 UTC	N/A	N/A	N/A
+10:ScheduledTasks	ScheduledTasks: Creation Time for task {EC95F45C-0486-40E1-8938-20FE3E377E7D} with trigger N/A	2024-07-04 10:41:39.000000 UTC	N/A	N/A	N/A
+11:ScheduledTasks	ScheduledTasks: Creation Time for task {4A0DEFDA-A2B8-4736-88E1-A578E00D9704} with trigger WNF state 7518bca324009615	2024-07-04 10:42:53.000000 UTC	N/A	N/A	N/A
+2277:ScheduledTasks	ScheduledTasks: Creation Time for task {6A47E1CC-C607-4F92-ACA3-AE7CD9AC30D3} with trigger WNF state 7528bca33a19870f	2024-07-04 10:44:52.000000 UTC	N/A	N/A	N/A
+2278:ScheduledTasks	ScheduledTasks: Creation Time for task {6A47E1CC-C607-4F92-ACA3-AE7CD9AC30D3} with trigger WNF state 7524bca33e06830d	2024-07-04 10:44:52.000000 UTC	N/A	N/A	N/A
+2279:ScheduledTasks	ScheduledTasks: Creation Time for task {6A47E1CC-C607-4F92-ACA3-AE7CD9AC30D3} with trigger WNF state 7518bca33a19870f	2024-07-04 10:44:52.000000 UTC	N/A	N/A	N/A
+5613:ScheduledTasks	ScheduledTasks: Creation Time for task {0EDEA23A-3DEC-41C3-B03E-BC7A3356D6BC} with trigger WNF state f510bca32a1e890d	2024-07-15 04:02:24.000000 UTC	N/A	N/A	N/A
+5614:ScheduledTasks	ScheduledTasks: Creation Time for task {0EDEA23A-3DEC-41C3-B03E-BC7A3356D6BC} with trigger Logon trigger	2024-07-15 04:02:24.000000 UTC	N/A	N/A	N/A
+5615:ScheduledTasks	ScheduledTasks: Creation Time for task {0EDEA23A-3DEC-41C3-B03E-BC7A3356D6BC} with trigger Logon trigger	2024-07-15 04:02:24.000000 UTC	N/A	N/A	N/A
+5616:ScheduledTasks	ScheduledTasks: Creation Time for task {0EDEA23A-3DEC-41C3-B03E-BC7A3356D6BC} with trigger Event trigger: Subscription: <QueryList><Query Id="0" Path="Microsoft-Windows-User Device Registration/Admin"><Select Path="Microsoft-Windows-User Device Registration/Admin">*[System[Provider[@Name='Microsoft-Windows-User Device Registration'] and EventID=300]]</Select></Query></QueryList>, Queries: []	2024-07-15 04:02:24.000000 UTC	N/A	N/A	N/A
+5617:ScheduledTasks	ScheduledTasks: Creation Time for task {4BCE6391-0B05-40B4-B642-910B37FB1CE6} with trigger N/A	2024-07-15 04:02:24.000000 UTC	N/A	N/A	N/A
+5618:ScheduledTasks	ScheduledTasks: Creation Time for task {4BCE6391-0B05-40B4-B642-910B37FB1CE6} with trigger WNF state 750cbca3290b9641	2024-07-15 04:02:24.000000 UTC	N/A	N/A	N/A
+5975:ScheduledTasks	ScheduledTasks: Creation Time for task {4671B5C1-A383-4428-A45A-8D348E4CB873} with trigger WNF state 7510bca3381d8941	2024-07-15 04:03:57.000000 UTC	N/A	N/A	N/A
+5976:ScheduledTasks	ScheduledTasks: Creation Time for task {4671B5C1-A383-4428-A45A-8D348E4CB873} with trigger N/A	2024-07-15 04:03:57.000000 UTC	N/A	N/A	N/A
+9379:ScheduledTasks	ScheduledTasks: Creation Time for task {1D3385BA-F074-4062-8FDA-D3F42DD7F759} with trigger N/A	2024-07-15 06:58:16.000000 UTC	N/A	N/A	N/A
+9380:ScheduledTasks	ScheduledTasks: Creation Time for task {7DE4A4A3-E428-4D6D-AC29-533FE38406C3} with trigger N/A	2024-07-15 06:58:16.000000 UTC	N/A	N/A	N/A
+10233:ScheduledTasks	ScheduledTasks: Creation Time for task {ED77AEE0-EAFB-4133-B544-9E7C5632D902} with trigger N/A	2024-07-15 07:00:00.000000 UTC	N/A	N/A	N/A
+10814:ScheduledTasks	ScheduledTasks: task action {ca767aa8-9157-4604-b64b-40747123d5f2} with trigger N/A ran	N/A	N/A	2024-06-29 20:32:48.000000 UTC	N/A
+10815:ScheduledTasks	ScheduledTasks: task action N/A with trigger Logon trigger ran	N/A	N/A	2024-07-01 20:32:48.000000 UTC	N/A
+10816:ScheduledTasks	ScheduledTasks: task action {5014b7c8-934e-4262-9816-887fa745a6c4} with trigger WNF state 7518bca3391e8b41 ran successfully	N/A	N/A	2024-07-04 10:34:44.000000 UTC	N/A
+10817:ScheduledTasks	ScheduledTasks: task action {5014b7c8-934e-4262-9816-887fa745a6c4} with trigger WNF state 7560bca322028f02 ran successfully	N/A	N/A	2024-07-04 10:34:44.000000 UTC	N/A
+10818:ScheduledTasks	ScheduledTasks: task action {5014b7c8-934e-4262-9816-887fa745a6c4} with trigger WNF state 7510bca3391e8b41 ran successfully	N/A	N/A	2024-07-04 10:34:44.000000 UTC	N/A
+10819:ScheduledTasks	ScheduledTasks: task action {5014b7c8-934e-4262-9816-887fa745a6c4} with trigger WNF state 3528bca32e1d8e0d ran successfully	N/A	N/A	2024-07-04 10:34:44.000000 UTC	N/A
+10820:ScheduledTasks	ScheduledTasks: task action %systemroot%\system32\usoclient.exe with trigger N/A ran	N/A	N/A	2024-07-04 10:35:16.000000 UTC	N/A
+10821:ScheduledTasks	ScheduledTasks: task action %systemroot%\system32\usoclient.exe with trigger N/A ran	N/A	N/A	2024-07-04 10:36:06.000000 UTC	N/A
+10822:ScheduledTasks	ScheduledTasks: task action %systemroot%\system32\usoclient.exe with trigger N/A ran	N/A	N/A	2024-07-04 10:41:47.000000 UTC	N/A
+10823:ScheduledTasks	ScheduledTasks: task action {378eab97-efd6-4ed5-9ad9-e64a6aa1e6fa} with trigger WNF state 7518bca324009615 ran successfully	N/A	N/A	2024-07-04 10:42:54.000000 UTC	N/A
+10824:ScheduledTasks	ScheduledTasks: task action C:\Program Files (x86)\Microsoft OneDrive\OneDriveStandaloneUpdater.exe with trigger N/A ran	N/A	N/A	2024-07-04 10:43:42.000000 UTC	N/A
+10825:ScheduledTasks	ScheduledTasks: task action {c93cf9d5-31b-4aaa-ab0b-ef802347b381} with trigger WNF state 7528bca33a19870f ran successfully	N/A	N/A	2024-07-04 10:44:54.000000 UTC	N/A
+10826:ScheduledTasks	ScheduledTasks: task action {c93cf9d5-31b-4aaa-ab0b-ef802347b381} with trigger WNF state 7524bca33e06830d ran successfully	N/A	N/A	2024-07-04 10:44:54.000000 UTC	N/A
+10827:ScheduledTasks	ScheduledTasks: task action {c93cf9d5-31b-4aaa-ab0b-ef802347b381} with trigger WNF state 7518bca33a19870f ran successfully	N/A	N/A	2024-07-04 10:44:54.000000 UTC	N/A
+10828:ScheduledTasks	ScheduledTasks: task action {58fb76b9-ac85-4e55-ac04-427593b1d060} with trigger WNF state f510bca32a1e890d ran successfully	N/A	N/A	2024-07-04 10:45:00.000000 UTC	N/A
+10829:ScheduledTasks	ScheduledTasks: task action {58fb76b9-ac85-4e55-ac04-427593b1d060} with trigger Logon trigger ran successfully	N/A	N/A	2024-07-04 10:45:00.000000 UTC	N/A
+10830:ScheduledTasks	ScheduledTasks: task action {58fb76b9-ac85-4e55-ac04-427593b1d060} with trigger Logon trigger ran successfully	N/A	N/A	2024-07-04 10:45:00.000000 UTC	N/A
+10831:ScheduledTasks	ScheduledTasks: task action {58fb76b9-ac85-4e55-ac04-427593b1d060} with trigger Event trigger: Subscription: <QueryList><Query Id="0" Path="Microsoft-Windows-User Device Registration/Admin"><Select Path="Microsoft-Windows-User Device Registration/Admin">*[System[Provider[@Name='Microsoft-Windows-User Device Registration'] and EventID=300]]</Select></Query></QueryList>, Queries: [] ran successfully	N/A	N/A	2024-07-04 10:45:00.000000 UTC	N/A
+10832:ScheduledTasks	ScheduledTasks: task action {58fb76b9-ac85-4e55-ac04-427593b1d060} with trigger WNF state f510bca32a1e890d ran	N/A	N/A	2024-07-04 20:32:47.000000 UTC	N/A
+10833:ScheduledTasks	ScheduledTasks: task action {58fb76b9-ac85-4e55-ac04-427593b1d060} with trigger Logon trigger ran	N/A	N/A	2024-07-04 20:32:47.000000 UTC	N/A
+10834:ScheduledTasks	ScheduledTasks: task action {58fb76b9-ac85-4e55-ac04-427593b1d060} with trigger Logon trigger ran	N/A	N/A	2024-07-04 20:32:47.000000 UTC	N/A
+10835:ScheduledTasks	ScheduledTasks: task action {58fb76b9-ac85-4e55-ac04-427593b1d060} with trigger Event trigger: Subscription: <QueryList><Query Id="0" Path="Microsoft-Windows-User Device Registration/Admin"><Select Path="Microsoft-Windows-User Device Registration/Admin">*[System[Provider[@Name='Microsoft-Windows-User Device Registration'] and EventID=300]]</Select></Query></QueryList>, Queries: [] ran	N/A	N/A	2024-07-04 20:32:47.000000 UTC	N/A
+10836:ScheduledTasks	ScheduledTasks: task action {f3a219c3-2698-4cbf-9c07-37edb8e72e6} with trigger Boot trigger ran	N/A	N/A	2024-07-04 20:32:47.000000 UTC	N/A
+10837:ScheduledTasks	ScheduledTasks: task action {f3a219c3-2698-4cbf-9c07-37edb8e72e6} with trigger N/A ran	N/A	N/A	2024-07-04 20:32:47.000000 UTC	N/A
+10838:ScheduledTasks	ScheduledTasks: task action {f3a219c3-2698-4cbf-9c07-37edb8e72e6} with trigger WNF state 7538bda33e06830d ran	N/A	N/A	2024-07-04 20:32:47.000000 UTC	N/A
+10839:ScheduledTasks	ScheduledTasks: task action {f3a219c3-2698-4cbf-9c07-37edb8e72e6} with trigger WNF state 7518bca33e06830d ran	N/A	N/A	2024-07-04 20:32:47.000000 UTC	N/A
+10840:ScheduledTasks	ScheduledTasks: task action {f3a219c3-2698-4cbf-9c07-37edb8e72e6} with trigger WNF state 7510bca33e0b8441 ran	N/A	N/A	2024-07-04 20:32:47.000000 UTC	N/A
+10841:ScheduledTasks	ScheduledTasks: task action {f3a219c3-2698-4cbf-9c07-37edb8e72e6} with trigger N/A ran	N/A	N/A	2024-07-04 20:32:47.000000 UTC	N/A
+10842:ScheduledTasks	ScheduledTasks: task action {ae31b729-d5fd-401e-af42-784074835afe} with trigger WNF state 7548bca321078541 ran	N/A	N/A	2024-07-04 20:32:48.000000 UTC	N/A
+10843:ScheduledTasks	ScheduledTasks: task action {ae31b729-d5fd-401e-af42-784074835afe} with trigger WNF state 7508bca32a1e890d ran	N/A	N/A	2024-07-04 20:32:48.000000 UTC	N/A
+10844:ScheduledTasks	ScheduledTasks: task action {ab2a519b-3b0-43ce-940a-a73df850b49a} with trigger N/A ran	N/A	N/A	2024-07-04 20:32:48.000000 UTC	N/A
+10845:ScheduledTasks	ScheduledTasks: task action {e4544aba-62bf-4c54-aab2-ec246342626c} with trigger N/A ran	N/A	N/A	2024-07-04 20:32:48.000000 UTC	N/A
+10846:ScheduledTasks	ScheduledTasks: task action {5014b7c8-934e-4262-9816-887fa745a6c4} with trigger WNF state 7518bca3391e8b41 ran	N/A	N/A	2024-07-04 20:32:48.000000 UTC	N/A
+10847:ScheduledTasks	ScheduledTasks: task action {5014b7c8-934e-4262-9816-887fa745a6c4} with trigger WNF state 7560bca322028f02 ran	N/A	N/A	2024-07-04 20:32:48.000000 UTC	N/A
+10848:ScheduledTasks	ScheduledTasks: task action {5014b7c8-934e-4262-9816-887fa745a6c4} with trigger WNF state 7510bca3391e8b41 ran	N/A	N/A	2024-07-04 20:32:48.000000 UTC	N/A
+10849:ScheduledTasks	ScheduledTasks: task action {5014b7c8-934e-4262-9816-887fa745a6c4} with trigger WNF state 3528bca32e1d8e0d ran	N/A	N/A	2024-07-04 20:32:48.000000 UTC	N/A
+10850:ScheduledTasks	ScheduledTasks: task action N/A with trigger WNF state 7510bca3381d8941 ran	N/A	N/A	2024-07-04 20:32:48.000000 UTC	N/A
+10851:ScheduledTasks	ScheduledTasks: task action N/A with trigger N/A ran	N/A	N/A	2024-07-04 20:32:48.000000 UTC	N/A
+10852:ScheduledTasks	ScheduledTasks: task action {378eab97-efd6-4ed5-9ad9-e64a6aa1e6fa} with trigger WNF state 7518bca324009615 ran	N/A	N/A	2024-07-04 20:32:48.000000 UTC	N/A
+10853:ScheduledTasks	ScheduledTasks: task action %windir%\system32\sc.exe with trigger N/A ran	N/A	N/A	2024-07-04 20:32:48.000000 UTC	N/A
+10854:ScheduledTasks	ScheduledTasks: task action %windir%\system32\sc.exe with trigger WNF state 750cbca3290b9641 ran	N/A	N/A	2024-07-04 20:32:48.000000 UTC	N/A
+10855:ScheduledTasks	ScheduledTasks: task action {17c82257-654e-4c47-8e23-dca24eaa76a0} with trigger N/A ran	N/A	N/A	2024-07-04 20:32:48.000000 UTC	N/A
+10856:ScheduledTasks	ScheduledTasks: task action {61bcd1b9-340c-40ec-9d41-d7f1c0632f05} with trigger WNF state 7548bca32b188341 ran	N/A	N/A	2024-07-04 20:32:48.000000 UTC	N/A
+10857:ScheduledTasks	ScheduledTasks: task action N/A with trigger WNF state 7508bca3291b950c ran	N/A	N/A	2024-07-04 20:32:48.000000 UTC	N/A
+10858:ScheduledTasks	ScheduledTasks: task action {c93cf9d5-31b-4aaa-ab0b-ef802347b381} with trigger WNF state 7528bca33a19870f ran	N/A	N/A	2024-07-04 20:32:48.000000 UTC	N/A
+10859:ScheduledTasks	ScheduledTasks: task action {c93cf9d5-31b-4aaa-ab0b-ef802347b381} with trigger WNF state 7524bca33e06830d ran	N/A	N/A	2024-07-04 20:32:48.000000 UTC	N/A
+10860:ScheduledTasks	ScheduledTasks: task action {c93cf9d5-31b-4aaa-ab0b-ef802347b381} with trigger WNF state 7518bca33a19870f ran	N/A	N/A	2024-07-04 20:32:48.000000 UTC	N/A
+10861:ScheduledTasks	ScheduledTasks: task action %windir%\system32\cleanmgr.exe with trigger N/A ran	N/A	N/A	2024-07-04 20:32:48.000000 UTC	N/A
+10862:ScheduledTasks	ScheduledTasks: task action %SystemRoot%\System32\drvinst.exe with trigger N/A ran	N/A	N/A	2024-07-04 20:32:49.000000 UTC	N/A
+10863:ScheduledTasks	ScheduledTasks: task action {990a9f8f-301f-45f7-8d0e-68c5952dba43} with trigger N/A ran	N/A	N/A	2024-07-04 20:32:50.000000 UTC	N/A
+10864:ScheduledTasks	ScheduledTasks: task action N/A with trigger N/A ran	N/A	N/A	2024-07-04 20:32:50.000000 UTC	N/A
+10865:ScheduledTasks	ScheduledTasks: task action {61bcd1b9-340c-40ec-9d41-d7f1c0632f05} with trigger N/A ran	N/A	N/A	2024-07-04 20:32:50.000000 UTC	N/A
+10866:ScheduledTasks	ScheduledTasks: task action %windir%\system32\defrag.exe with trigger N/A ran	N/A	N/A	2024-07-04 20:32:50.000000 UTC	N/A
+10867:ScheduledTasks	ScheduledTasks: task action N/A with trigger WNF state 7510bca3381d8941 ran successfully	N/A	N/A	2024-07-15 04:04:00.000000 UTC	N/A
+10868:ScheduledTasks	ScheduledTasks: task action N/A with trigger N/A ran successfully	N/A	N/A	2024-07-15 04:04:00.000000 UTC	N/A
+10869:ScheduledTasks	ScheduledTasks: task action C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeC2RClient.exe with trigger N/A ran	N/A	N/A	2024-07-15 04:15:02.000000 UTC	N/A
+10870:ScheduledTasks	ScheduledTasks: task action C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeC2RClient.exe with trigger Logon trigger ran	N/A	N/A	2024-07-15 04:15:02.000000 UTC	N/A
+10871:ScheduledTasks	ScheduledTasks: task action C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeC2RClient.exe with trigger Logon trigger ran	N/A	N/A	2024-07-15 04:15:02.000000 UTC	N/A
+10872:ScheduledTasks	ScheduledTasks: task action N/A with trigger N/A ran	N/A	N/A	2024-07-15 04:15:41.000000 UTC	N/A
+10873:ScheduledTasks	ScheduledTasks: task action N/A with trigger N/A ran	N/A	N/A	2024-07-15 04:16:32.000000 UTC	N/A
+10874:ScheduledTasks	ScheduledTasks: task action C:\Program Files (x86)\Microsoft OneDrive\OneDriveStandaloneUpdater.exe with trigger N/A ran successfully	N/A	N/A	2024-07-15 06:59:26.000000 UTC	N/A
+10875:ScheduledTasks	ScheduledTasks: task action N/A with trigger N/A ran successfully	N/A	N/A	2024-07-15 07:00:00.000000 UTC	N/A

