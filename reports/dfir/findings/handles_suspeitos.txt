@@ -1,0 +1,485 @@
+474:4	System	0xc90c07bc7d70	0x86c	File	0x1f0006	\Device\NamedPipe\Sessions\0\AppContainerNamedObjects\S-1-15-2-95739096-486727260-2033287795-3853587803-1685597119-444378811-2746676523
+480:4	System	0xc90c07bc8ea0	0x884	File	0x1f0006	\Device\NamedPipe\Sessions\1\AppContainerNamedObjects\S-1-15-2-95739096-486727260-2033287795-3853587803-1685597119-444378811-2746676523
+946:4	System	0xc90c08243a70	0x10d4	File	0x12008b	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows\wfp\wfpdiag.etl
+1023:4	System	0xc90c08391880	0x1208	File	0x12008b	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows Defender\Support\MpWppTracing-20240704-034452-00000003-ffffffff.bin
+1026:4	System	0xc90c081c78f0	0x1214	File	0x12019f	\Device\NamedPipe\
+1130:4	System	0xc90c092974a0	0x13d4	File	0x1	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.Windows.ShellExperienceHost_10.0.19041.1949_neutral_neutral_cw5n1h2txyewy\ActivationStore.dat
+1176:4	System	0xc90c08686e70	0x14b4	File	0x3	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG2
+1182:4	System	0xc90c086890d0	0x14cc	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\UsrClass.dat{c390ecb1-3a44-11ef-b9c3-000c29158dc7}.TM.blf
+1186:4	System	0xc90c08683ae0	0x14dc	File	0x20003	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\UsrClass.dat
+1278:4	System	0xc90c09286b00	0x167c	File	0x1f0006	\Device\NamedPipe\Sessions\1\AppContainerNamedObjects\S-1-15-2-155514346-2573954481-755741238-1654018636-1233331829-3075935687-2861478708
+1297:4	System	0xc90c09298440	0x16d8	File	0x1	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.Windows.ShellExperienceHost_10.0.19041.1949_neutral_neutral_cw5n1h2txyewy\ActivationStore.dat.LOG2
+1302:4	System	0xc90c09298c10	0x16f0	File	0x1	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.Windows.ShellExperienceHost_10.0.19041.1949_neutral_neutral_cw5n1h2txyewy\ActivationStore.dat.LOG1
+1401:4	System	0xc90c0c10da40	0x1904	File	0x3	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Packages\Microsoft.SkypeApp_kzf8qxf38zg5c\Settings\settings.dat.LOG1
+1498:4	System	0xc90c08c0be20	0x1b08	File	0x1f0006	\Device\NamedPipe\Sessions\1\AppContainerNamedObjects\S-1-15-2-515815643-2845804217-1874292103-218650560-777617685-4287762684-137415000
+1561:4	System	0xc90c08c14610	0x1c3c	File	0x20003	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Packages\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\Settings\settings.dat
+1565:4	System	0xc90c08c123b0	0x1c54	File	0x3	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Packages\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\Settings\settings.dat.LOG1
+1590:4	System	0xc90c08c1cc70	0x1cd8	File	0x1	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.Windows.Search_1.14.7.19041_neutral_neutral_cw5n1h2txyewy\ActivationStore.dat
+1591:4	System	0xc90c08c131c0	0x1cdc	File	0x3	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Packages\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\Settings\settings.dat.LOG2
+1603:4	System	0xc90c08c20190	0x1d1c	File	0x3	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\Settings\settings.dat.LOG1
+1609:4	System	0xc90c08c192a0	0x1d3c	File	0x1f0006	\Device\NamedPipe\Sessions\1\AppContainerNamedObjects\S-1-15-2-536077884-713174666-1066051701-3219990555-339840825-1966734348-1611281757
+1632:4	System	0xc90c09b42540	0x1da0	File	0x20003	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Packages\Microsoft.Windows.ShellExperienceHost_cw5n1h2txyewy\Settings\settings.dat
+1648:4	System	0xc90c08c1eed0	0x1dfc	File	0x20003	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\Settings\settings.dat
+1651:4	System	0xc90c08c1d440	0x1e08	File	0x1	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.Windows.Search_1.14.7.19041_neutral_neutral_cw5n1h2txyewy\ActivationStore.dat.LOG1
+1655:4	System	0xc90c08c1d5d0	0x1e18	File	0x1	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.Windows.Search_1.14.7.19041_neutral_neutral_cw5n1h2txyewy\ActivationStore.dat.LOG2
+1660:4	System	0xc90c08c1f510	0x1e30	File	0x3	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\Settings\settings.dat.LOG2
+1664:4	System	0xc90c09b429f0	0x1e40	File	0x3	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Packages\Microsoft.Windows.ShellExperienceHost_cw5n1h2txyewy\Settings\settings.dat.LOG1
+1669:4	System	0xc90c0a61aa10	0x1e54	File	0x1	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.SkypeApp_14.53.77.0_x64__kzf8qxf38zg5c\ActivationStore.dat.LOG1
+1739:4	System	0xc90c09b442f0	0x1fc4	File	0x3	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Packages\Microsoft.Windows.ShellExperienceHost_cw5n1h2txyewy\Settings\settings.dat.LOG2
+1772:4	System	0xc90c0929c770	0x206c	File	0x1	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.MicrosoftOfficeHub_18.1903.1152.0_x64__8wekyb3d8bbwe\ActivationStore.dat
+1873:4	System	0xc90c09280d40	0x2294	File	0x1f0006	\Device\NamedPipe
+1979:4	System	0xc90c08682e60	0x24bc	File	0x1f0006	\Device\NamedPipe\Sessions\1\AppContainerNamedObjects\S-1-15-2-3251537155-1984446955-2931258699-841473695-1938553385-924012159-129201922
+2055:4	System	0xc90c08a0fa80	0x2610	File	0x20003	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Packages\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\Settings\settings.dat
+2080:4	System	0xc90c0c10c140	0x2690	File	0x3	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Packages\Microsoft.SkypeApp_kzf8qxf38zg5c\Settings\settings.dat.LOG2
+2083:4	System	0xc90c08a10d40	0x26ac	File	0x3	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Packages\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\Settings\settings.dat.LOG1
+2124:4	System	0xc90c08a08b90	0x277c	File	0x1	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows\AppRepository\Packages\MicrosoftWindows.Client.CBS_120.2212.4180.0_x64__cw5n1h2txyewy\ActivationStore.dat
+2145:4	System	0xc90c092910a0	0x27d4	File	0x12008b	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows Security Health\Logs\SHS-07042024-034515-7-7f-19041.1.amd64fre.vb_release.191206-1406.etl
+2201:4	System	0xc90c08c236b0	0x28d0	File	0x1f0006	\Device\NamedPipe\Sessions\1\AppContainerNamedObjects\S-1-15-2-283421221-3183566570-1718213290-751554359-3541592344-2312209569-3374928651
+2203:4	System	0xc90c08c325c0	0x28dc	File	0x3	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Packages\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\Settings\settings.dat.LOG2
+2224:4	System	0xc90c0926a770	0x2944	File	0x1f0006	\Device\NamedPipe\Sessions\1\AppContainerNamedObjects\S-1-15-2-2246530975-808720366-1776470054-230329187-4153223113-3550430174-4193313734
+2377:4	System	0xc90c09b4cae0	0x2c7c	File	0x3	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Packages\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\Settings\settings.dat.LOG1
+2381:4	System	0xc90c0a632430	0x2c8c	File	0x20003	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Packages\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\Settings\settings.dat
+2428:4	System	0xc90c0ad55570	0x2d5c	File	0x3	\Device\HarddiskVolume3\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\State\dosvcState.dat.LOG1
+2439:4	System	0xc90c0ad5ed00	0x2d94	File	0x1	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.UI.Xaml.2.0_2.1810.18004.0_x64__8wekyb3d8bbwe\ActivationStore.dat.LOG1
+2520:4	System	0xc90c0ad582c0	0x2f58	File	0x20003	\Device\HarddiskVolume3\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\State\dosvcState.dat
+2665:4	System	0xc90c09529c40	0x324c	File	0x1f0006	\Device\NamedPipe\Sessions\1\AppContainerNamedObjects\S-1-15-2-466767348-3739614953-2700836392-1801644223-4227750657-1087833535-2488631167
+2757:4	System	0xc90c0c10d400	0x344c	File	0x20003	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Packages\Microsoft.SkypeApp_kzf8qxf38zg5c\Settings\settings.dat
+2971:416	csrss.exe	0xc90c069fb200	0x94	File	0x1f01ff	\Device\NamedPipe\Sessions\0\AppContainerNamedObjects
+3425:512	csrss.exe	0xc90c069fdaa0	0xa0	File	0x1f01ff	\Device\NamedPipe\Sessions\1\AppContainerNamedObjects
+4257:628	services.exe	0xc90c07bc3bd0	0x138	File	0x100000	\Device\NamedPipe\ntsvcs
+4258:628	services.exe	0xc90c07bc43a0	0x13c	File	0x12019f	\Device\NamedPipe\ntsvcs
+4259:628	services.exe	0xc90c07bc3270	0x140	File	0x12019f	\Device\NamedPipe\ntsvcs
+4272:628	services.exe	0xc90c07bc7be0	0x174	File	0x12019f	\Device\NamedPipe\scerpc
+4273:628	services.exe	0xc90c07bc6dd0	0x178	File	0x100000	\Device\NamedPipe\scerpc
+4274:628	services.exe	0xc90c07bc7730	0x17c	File	0x12019f	\Device\NamedPipe\scerpc
+4405:628	services.exe	0xc90c08391a10	0x3e8	File	0x160089	\Device\NamedPipe\Winsock2\CatalogChangeListener-274-0
+4923:636	lsass.exe	0xc90c07bc30e0	0x614	File	0x100000	\Device\NamedPipe\lsass
+4924:636	lsass.exe	0xc90c07bc46c0	0x618	File	0x12019f	\Device\NamedPipe\lsass
+5043:636	lsass.exe	0xc90c07c38790	0x808	File	0x160089	\Device\NamedPipe\Winsock2\CatalogChangeListener-27c-0
+5428:636	lsass.exe	0xc90c08858840	0xebc	File	0x12019f	\Device\NamedPipe\lsass
+5453:636	lsass.exe	0xc90c08863290	0xf24	File	0x12019f	\Device\NamedPipe\lsass
+5508:636	lsass.exe	0xc90c08c09a30	0x1030	File	0x100001	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Microsoft\Credentials
+6225:764	svchost.exe	0xc90c07caf980	0x58c	File	0x12019f	\Device\NamedPipe\LSM_API_service
+6226:764	svchost.exe	0xc90c07caf4d0	0x590	File	0x100000	\Device\NamedPipe\LSM_API_service
+6227:764	svchost.exe	0xc90c07cafb10	0x594	File	0x12019f	\Device\NamedPipe\LSM_API_service
+6229:764	svchost.exe	0xc90c07cada40	0x59c	File	0x160089	\Device\NamedPipe\Winsock2\CatalogChangeListener-2fc-0
+7262:872	svchost.exe	0xc90c07c38470	0x1fc	File	0x100000	\Device\NamedPipe\epmapper
+7272:872	svchost.exe	0xc90c07c38dd0	0x224	File	0x12019f	\Device\NamedPipe\epmapper
+7294:872	svchost.exe	0xc90c07c39410	0x280	File	0x12019f	\Device\NamedPipe\epmapper
+7296:872	svchost.exe	0xc90c07c39a50	0x288	File	0x160089	\Device\NamedPipe\Winsock2\CatalogChangeListener-368-0
+9413:440	svchost.exe	0xc90c0ca077d0	0x1f0	File	0x12019f	\Device\NamedPipe\srvsvc
+9556:440	svchost.exe	0xc90c07df0920	0x448	File	0x100000	\Device\NamedPipe\atsvc
+9558:440	svchost.exe	0xc90c07df29f0	0x450	File	0x12019f	\Device\NamedPipe\atsvc
+9559:440	svchost.exe	0xc90c07df2090	0x454	File	0x12019f	\Device\NamedPipe\atsvc
+9670:440	svchost.exe	0xc90c07e6e3e0	0x61c	File	0x160089	\Device\NamedPipe\Winsock2\CatalogChangeListener-1b8-0
+9683:440	svchost.exe	0xc90c0ea935a0	0x650	File	0x12019f	\Device\NamedPipe\srvsvc
+10160:440	svchost.exe	0xc90c0f259170	0xeb0	File	0x12019f	\Device\NamedPipe\srvsvc
+10263:440	svchost.exe	0xc90c08405990	0x1060	File	0x100000	\Device\NamedPipe\srvsvc
+10618:440	svchost.exe	0xc90c0f14a0d0	0x16d4	File	0x12019f	\Device\NamedPipe\srvsvc
+10681:440	svchost.exe	0xc90c08c13cb0	0x17e4	File	0x12019f	\Device\HarddiskVolume3\ProgramData\USOShared\Logs\System\UpdateSessionOrchestration.213103a0-c42d-4c16-a2ff-40d1d82b0f62.1.etl
+10821:440	svchost.exe	0xc90c08c279e0	0x1a5c	File	0x12019f	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows\LfSvc\Geofence\GeofenceApplicationID.dat
+11001:440	svchost.exe	0xc90c0f15e5d0	0x1e10	File	0x13019f	\Device\HarddiskVolume3\ProgramData\Microsoft\Network\Downloader\qmgr.db
+11152:440	svchost.exe	0xc90c09b199b0	0x20dc	File	0x1a019f	\Device\NamedPipe\PIPE_EVENTROOT\CIMV2SCM EVENT PROVIDER
+11216:440	svchost.exe	0xc90c0f15e2b0	0x2224	File	0x13019f	\Device\HarddiskVolume3\ProgramData\Microsoft\Network\Downloader\edb.log
+11449:440	svchost.exe	0xc90c0f15c820	0x2684	File	0x13019f	\Device\HarddiskVolume3\ProgramData\Microsoft\Network\Downloader\qmgr.jfm
+12228:656	svchost.exe	0xc90c07ded270	0x2bc	File	0x100000	\Device\NamedPipe\eventlog
+12229:656	svchost.exe	0xc90c07dee530	0x2c0	File	0x12019f	\Device\NamedPipe\eventlog
+12230:656	svchost.exe	0xc90c07deda40	0x2c4	File	0x12019f	\Device\NamedPipe\eventlog
+13221:1040	svchost.exe	0xc90c0824e330	0x5c4	File	0x100000	\Device\NamedPipe\trkwks
+13222:1040	svchost.exe	0xc90c0824b900	0x5c8	File	0x12019f	\Device\NamedPipe\trkwks
+13223:1040	svchost.exe	0xc90c0824dcf0	0x5cc	File	0x12019f	\Device\NamedPipe\trkwks
+13964:1112	svchost.exe	0xc90c0eabb4b0	0x54c	File	0x100000	\Device\NamedPipe\DAV RPC SERVICE
+13994:1112	svchost.exe	0xc90c0f178700	0x5e0	File	0x12019f	\Device\HarddiskVolume3\Windows\ServiceProfiles\LocalService\AppData\Local\FontCache\~FontCache-S-1-5-18.dat
+14035:1112	svchost.exe	0xc90c08a0bd90	0x6a0	File	0x12019f	\Device\HarddiskVolume3\Windows\ServiceProfiles\LocalService\AppData\Local\FontCache\~FontCache-FontSet-S-1-5-21-3274565340-3808842250-3617890653-1001.dat
+14274:1112	svchost.exe	0xc90c0f272df0	0xd38	File	0x12019f	\Device\HarddiskVolume3\Windows\ServiceProfiles\LocalService\AppData\Local\FontCache\~FontCache-FontSet-S-1-5-18.dat
+14344:1112	svchost.exe	0xc90c08a0d500	0xe60	File	0x12019f	\Device\HarddiskVolume3\Windows\ServiceProfiles\LocalService\AppData\Local\FontCache\~FontCache-S-1-5-21-3274565340-3808842250-3617890653-1001.dat
+14593:1112	svchost.exe	0xc90c0f26a600	0x133c	File	0x12019f	\Device\HarddiskVolume3\Windows\ServiceProfiles\LocalService\AppData\Local\FontCache\~FontCache-FontFace.dat
+14617:1112	svchost.exe	0xc90c0eabd3f0	0x1458	File	0x12019f	\Device\NamedPipe\DAV RPC SERVICE
+14618:1112	svchost.exe	0xc90c0f2584f0	0x1464	File	0x12019f	\Device\HarddiskVolume3\Windows\ServiceProfiles\LocalService\AppData\Local\FontCache\~FontCache-System.dat
+14678:1112	svchost.exe	0xc90c0eabdee0	0x17b8	File	0x12019f	\Device\NamedPipe\DAV RPC SERVICE
+14942:1260	svchost.exe	0xc90c08679b80	0x418	File	0x12019f	\Device\NamedPipe\wkssvc
+15154:1260	svchost.exe	0xc90c0ca05890	0x76c	File	0x100001	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\AC\Microsoft\CryptnetUrlCache\MetaData
+15163:1260	svchost.exe	0xc90c08c22bc0	0x794	File	0x100001	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\AC\Microsoft\CryptnetUrlCache\MetaData
+15219:1260	svchost.exe	0xc90c08240550	0x880	File	0x100000	\Device\NamedPipe\wkssvc
+15358:1260	svchost.exe	0xc90c08c3e2d0	0xabc	File	0x100001	\Device\HarddiskVolume3\Users\Elon\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData
+15542:1260	svchost.exe	0xc90c0eaa0890	0xde0	File	0x12019f	\Device\NamedPipe\wkssvc
+15575:1260	svchost.exe	0xc90c07fbc7e0	0xe68	File	0x12019f	\Device\NamedPipe\wkssvc
+16081:1680	svchost.exe	0xc90c0ca1cae0	0x15c	File	0x12019f	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows\AppRepository\StateRepository-Machine.srd-wal
+16543:1864	spoolsv.exe	0xc90c080866a0	0x21c	File	0x100000	\Device\NamedPipe\spoolss
+16545:1864	spoolsv.exe	0xc90c08085890	0x224	File	0x12019f	\Device\NamedPipe\spoolss
+16546:1864	spoolsv.exe	0xc90c08087960	0x228	File	0x12019f	\Device\NamedPipe\spoolss
+16560:1864	spoolsv.exe	0xc90c08089260	0x274	File	0x160089	\Device\NamedPipe\Winsock2\CatalogChangeListener-748-0
+17449:2080	svchost.exe	0xc90c08402dd0	0x294	File	0x12019f	\Device\HarddiskVolume3\ProgramData\Microsoft\Diagnosis\EventStore.db
+17450:2080	svchost.exe	0xc90c08405cb0	0x298	File	0x12019f	\Device\HarddiskVolume3\ProgramData\Microsoft\Diagnosis\EventStore.db-shm
+17520:2080	svchost.exe	0xc90c0840e310	0x3b4	File	0x12019f	\Device\HarddiskVolume3\ProgramData\Microsoft\Diagnosis\ScenariosSqlStore\EventStore.db-shm
+17528:2080	svchost.exe	0xc90c0840db40	0x3d4	File	0x12019f	\Device\HarddiskVolume3\ProgramData\Microsoft\Diagnosis\ScenariosSqlStore\EventStore.db-wal
+17529:2080	svchost.exe	0xc90c0840d9b0	0x3d8	File	0x12019f	\Device\HarddiskVolume3\ProgramData\Microsoft\Diagnosis\ScenariosSqlStore\EventStore.db
+17577:2080	svchost.exe	0xc90c0840c240	0x49c	File	0x12019f	\Device\HarddiskVolume3\ProgramData\Microsoft\Diagnosis\TenantStorage\P-ARIA\EventStore.db
+17580:2080	svchost.exe	0xc90c0840d370	0x4a8	File	0x12019f	\Device\HarddiskVolume3\ProgramData\Microsoft\Diagnosis\TenantStorage\P-ARIA\EventStore.db-shm
+18082:2248	vmtoolsd.exe	0xc90c0824c580	0x200	File	0x120196	\Device\HarddiskVolume3\Windows\Temp\vmware-vmsvc-SYSTEM.log
+18405:2272	MsMpEng.exe	0xc90c08392370	0x250	File	0x12008d	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows Defender\Support\MPDetection-20240704-133248.log
+18406:2272	MsMpEng.exe	0xc90c083908e0	0x254	File	0x12008d	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows Defender\Support\MPLog-20240704-133248.log
+18413:2272	MsMpEng.exe	0xc90c08396830	0x274	File	0x12019f	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows Defender\Scans\History\CacheManager\A76705C4-882B-4112-9F4B-63E7E08CAA1E-0.bin
+18414:2272	MsMpEng.exe	0xc90c0867d550	0x278	File	0x100001	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows Defender\Definition Updates\Updates
+18456:2272	MsMpEng.exe	0xc90c08398900	0x320	File	0x12019f	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows Defender\Scans\MpDiag.bin
+18547:2272	MsMpEng.exe	0xc90c09502370	0x5ec	File	0x130089	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows Defender\Scans\mpcache-122536278BCFFE6CE6ECD9073800035F7BEDBC66.bin.79
+18565:2272	MsMpEng.exe	0xc90c0867b610	0x63c	File	0x130196	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows Defender\IMpService77BDAF73-B396-481F-9042-AD358843EC24.lock
+18697:2272	MsMpEng.exe	0xc90c09508900	0xa98	File	0x130089	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows Defender\Scans\mpcache-122536278BCFFE6CE6ECD9073800035F7BEDBC66.bin.6C
+18814:2272	MsMpEng.exe	0xc90c09513990	0xd38	File	0x130089	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows Defender\Scans\mpcache-122536278BCFFE6CE6ECD9073800035F7BEDBC66.bin.7E
+18844:2272	MsMpEng.exe	0xc90c09503e00	0x113c	File	0x130089	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows Defender\Scans\mpcache-122536278BCFFE6CE6ECD9073800035F7BEDBC66.bin.01
+18845:2272	MsMpEng.exe	0xc90c095053e0	0x1154	File	0x130089	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows Defender\Scans\mpcache-122536278BCFFE6CE6ECD9073800035F7BEDBC66.bin.67
+18857:2272	MsMpEng.exe	0xc90c0f145440	0x11f8	File	0x130089	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows Defender\Scans\mpcache-122536278BCFFE6CE6ECD9073800035F7BEDBC66.bin.DB
+18872:2272	MsMpEng.exe	0xc90c0f149450	0x126c	File	0x12019f	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows Defender\Scans\mpenginedb.db
+20446:3252	svchost.exe	0xc90c08c34370	0x208	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Comms\UnistoreDB\store.vol
+20530:3252	svchost.exe	0xc90c0c130e50	0x364	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Comms\UnistoreDB\USS.jtx
+20543:3252	svchost.exe	0xc90c08693cb0	0x398	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Notifications\WPNPRMRY.tmp
+20567:3252	svchost.exe	0xc90c08696b90	0x3f8	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Notifications\wpndatabase.db
+20572:3252	svchost.exe	0xc90c08696d20	0x414	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Notifications\wpndatabase.db-wal
+20573:3252	svchost.exe	0xc90c08696870	0x418	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Notifications\wpndatabase.db-shm
+20621:3252	svchost.exe	0xc90c0c13d650	0x4dc	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Comms\UnistoreDB\store.jfm
+20841:3252	svchost.exe	0xc90c088565e0	0x888	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\ConnectedDevicesPlatform\L.Elon\ActivitiesCache.db-wal
+21113:3252	svchost.exe	0xc90c0c13b0d0	0xd40	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Comms\UnistoreDB\tmp.edb
+21436:3316	taskhostw.exe	0xc90c08a210a0	0x2c0	File	0x120089	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\WebCacheLock.dat
+21467:3316	taskhostw.exe	0xc90c08a213c0	0x34c	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\WebCache\WebCacheV01.dat
+21468:3316	taskhostw.exe	0xc90c08a1eb20	0x350	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\WebCache\WebCacheV01.jfm
+21494:3316	taskhostw.exe	0xc90c09b1b5d0	0x3c0	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\WebCache\V01tmp.log
+22298:3656	explorer.exe	0xc90c0f146ed0	0x430	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\iconcache_16.db
+22363:3656	explorer.exe	0xc90c0eaa8270	0x554	File	0x100081	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned
+22759:3656	explorer.exe	0xc90c0eaaca50	0xbb0	File	0x100081	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Microsoft\Windows\Network Shortcuts
+22768:3656	explorer.exe	0xc90c0c114160	0xbd8	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\iconcache_16.db
+23369:3656	explorer.exe	0xc90c0c113350	0x15b4	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db
+23433:3656	explorer.exe	0xc90c08c2e100	0x16bc	File	0x120089	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\GameDVR\KnownGameList.bin
+23438:3656	explorer.exe	0xc90c0ea9d500	0x16d0	File	0x100081	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Microsoft\Windows\Libraries
+23444:3656	explorer.exe	0xc90c0eaa4d50	0x16ec	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\iconcache_32.db
+23532:3656	explorer.exe	0xc90c0f144180	0x186c	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\iconcache_16.db
+23545:3656	explorer.exe	0xc90c0f147830	0x18ac	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\iconcache_16.db
+23548:3656	explorer.exe	0xc90c0eaa7460	0x18b8	File	0x100081	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
+23787:3656	explorer.exe	0xc90c0eaa9080	0x1ca4	File	0x100081	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Microsoft\Windows\Start Menu
+23788:3656	explorer.exe	0xc90c0c112860	0x1ca8	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\iconcache_32.db
+23806:3656	explorer.exe	0xc90c0f148640	0x1cf4	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db
+24381:3656	explorer.exe	0xc90c0ca0be20	0x26b0	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\thumbcache_idx.db
+24403:3656	explorer.exe	0xc90c0950a840	0x2708	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\thumbcache_16.db
+24426:3656	explorer.exe	0xc90c0ca048f0	0x2774	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\thumbcache_idx.db
+24459:3656	explorer.exe	0xc90c0eaa8a40	0x2828	File	0x100081	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Burn
+24469:3656	explorer.exe	0xc90c0eaa9850	0x285c	File	0x100081	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Microsoft\Windows\Start Menu
+24547:3656	explorer.exe	0xc90c0ad5c910	0x29cc	File	0x12019f	\Device\NamedPipe\srvsvc
+24556:3656	explorer.exe	0xc90c0eaa43f0	0x29f8	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\iconcache_48.db
+24616:3656	explorer.exe	0xc90c0eaa88b0	0x2b38	File	0x100081	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Burn
+24662:3656	explorer.exe	0xc90c0eaa7140	0x2c10	File	0x100081	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned
+24670:3656	explorer.exe	0xc90c0ea95990	0x2c34	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db
+24673:3656	explorer.exe	0xc90c0eaa4d50	0x2c48	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\iconcache_32.db
+24699:3656	explorer.exe	0xc90c0ea922e0	0x2cd8	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\thumbcache_256.db
+24706:3656	explorer.exe	0xc90c0ea9d690	0x2cf4	File	0x100081	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Microsoft\Windows\Libraries
+24740:3656	explorer.exe	0xc90c08a06160	0x2dac	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\thumbcache_idx.db
+24743:3656	explorer.exe	0xc90c09509580	0x2db8	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\thumbcache_idx.db
+24774:3656	explorer.exe	0xc90c0eaa8d60	0x2e70	File	0x100081	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Microsoft\Windows\Printer Shortcuts
+24831:3656	explorer.exe	0xc90c0ea9bd90	0x2f98	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\iconcache_16.db
+24859:3656	explorer.exe	0xc90c0ea9a940	0x3020	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\iconcache_32.db
+24892:3656	explorer.exe	0xc90c0eaa8590	0x30d4	File	0x100081	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
+24903:3656	explorer.exe	0xc90c0ca0be20	0x3118	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\thumbcache_idx.db
+24904:3656	explorer.exe	0xc90c0eaa67e0	0x311c	File	0x100081	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Microsoft\Windows\Printer Shortcuts
+24908:3656	explorer.exe	0xc90c0ca15100	0x312c	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\thumbcache_16.db
+24922:3656	explorer.exe	0xc90c0f145c10	0x3168	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\iconcache_32.db
+24949:3656	explorer.exe	0xc90c08a067a0	0x31f8	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\thumbcache_16.db
+24974:3656	explorer.exe	0xc90c0ca15100	0x327c	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\thumbcache_16.db
+25000:3656	explorer.exe	0xc90c095045d0	0x3308	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\thumbcache_idx.db
+25071:3656	explorer.exe	0xc90c0eaa8bd0	0x3484	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\thumbcache_48.db
+25073:3656	explorer.exe	0xc90c0f146ed0	0x348c	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\iconcache_16.db
+25092:3656	explorer.exe	0xc90c0ca021e0	0x34f0	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\thumbcache_16.db
+25094:3656	explorer.exe	0xc90c0eaaa660	0x3500	File	0x100081	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Microsoft\Windows\Network Shortcuts
+25120:3656	explorer.exe	0xc90c09509710	0x3598	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\thumbcache_16.db
+25125:3656	explorer.exe	0xc90c0f148640	0x35ac	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db
+25138:3656	explorer.exe	0xc90c0eaa3db0	0x35e8	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db
+25155:3656	explorer.exe	0xc90c0eab0740	0x364c	File	0x100081	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows\Start Menu
+25163:3656	explorer.exe	0xc90c0eab10a0	0x36dc	File	0x100081	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows\Start Menu
+26073:4356	StartMenuExper	0xc90c08c25460	0xa2c	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Packages\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\TempState\TileCache_100_3_PNGEncoded_Data.bin
+27219:5488	msedge.exe	0xc90c0950eb70	0x204	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\BrowserMetrics\BrowserMetrics-66867D39-1570.pma
+27560:5488	msedge.exe	0xc90c0926b710	0x780	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\shared_proto_db\LOCK
+27633:5488	msedge.exe	0xc90c071fbcf0	0x8a8	File	0x1a019f	\Device\NamedPipe\LOCAL\mojo.5488.5704.3498495581848260168
+27648:5488	msedge.exe	0xc90c0868e080	0x8e4	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\GraphiteDawnCache\index
+27707:5488	msedge.exe	0xc90c0868b970	0x9d8	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\ShaderCache\data_0
+27746:5488	msedge.exe	0xc90c080853e0	0xa78	File	0x1a019f	\Device\NamedPipe\LOCAL\mojo.5488.5704.6382462184006296486
+27757:5488	msedge.exe	0xc90c08398130	0xaa8	File	0x1a019f	\Device\NamedPipe\LOCAL\mojo.5488.5704.8369039137348100415
+27803:5488	msedge.exe	0xc90c083942b0	0xb6c	File	0x120196	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Sync Data\LevelDB\LOG
+27804:5488	msedge.exe	0xc90c08397af0	0xb70	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Vpn Tokens
+27805:5488	msedge.exe	0xc90c07fb63e0	0xb74	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Site Characteristics Database\LOCK
+27807:5488	msedge.exe	0xc90c08397c80	0xb80	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Sync Data\LevelDB\LOCK
+27808:5488	msedge.exe	0xc90c07e68620	0xb84	File	0x120196	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Site Characteristics Database\LOG
+27809:5488	msedge.exe	0xc90c08395bb0	0xb88	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Vpn Tokens-journal
+27811:5488	msedge.exe	0xc90c08395890	0xb90	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Web Data
+27814:5488	msedge.exe	0xc90c08394760	0xb9c	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Visited Links
+27815:5488	msedge.exe	0xc90c07fb60c0	0xba0	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\History
+27817:5488	msedge.exe	0xc90c07fb5da0	0xba8	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Nurturing\campaign_history
+27846:5488	msedge.exe	0xc90c07e6ad30	0xc2c	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Top Sites
+27849:5488	msedge.exe	0xc90c0839acf0	0xc38	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\HubApps Icons-journal
+27851:5488	msedge.exe	0xc90c071fa580	0xc40	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\HubApps Icons
+27866:5488	msedge.exe	0xc90c071fa3f0	0xc88	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Nurturing\campaign_history
+27868:5488	msedge.exe	0xc90c08679540	0xc90	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\ShaderCache\data_0
+27871:5488	msedge.exe	0xc90c08083c70	0xc9c	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\ShaderCache\index
+27877:5488	msedge.exe	0xc90c0867a990	0xcb4	File	0x120089	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Sync Data\LevelDB\000005.ldb
+27878:5488	msedge.exe	0xc90c086837c0	0xcb8	File	0x120196	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Sync Data\LevelDB\000006.log
+27886:5488	msedge.exe	0xc90c0808b970	0xcdc	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\ShaderCache\data_1
+27887:5488	msedge.exe	0xc90c08089d50	0xce0	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\ShaderCache\data_1
+27890:5488	msedge.exe	0xc90c07fbcc90	0xcec	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\ShaderCache\data_2
+27933:5488	msedge.exe	0xc90c07df3b20	0xdb4	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\ShaderCache\data_3
+27935:5488	msedge.exe	0xc90c0839ae80	0xdbc	File	0x120089	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Site Characteristics Database\000005.ldb
+27940:5488	msedge.exe	0xc90c0824c710	0xdd4	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\ShaderCache\data_3
+27945:5488	msedge.exe	0xc90c08686380	0xde8	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\load_statistics.db-wal
+27959:5488	msedge.exe	0xc90c08c3ccf0	0xe30	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\GPUCache\data_2
+27961:5488	msedge.exe	0xc90c09521db0	0xe38	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\DawnGraphiteCache\data_3
+27968:5488	msedge.exe	0xc90c08684da0	0xe5c	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\load_statistics.db-shm
+27974:5488	msedge.exe	0xc90c086848f0	0xe78	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Favicons
+28022:5488	msedge.exe	0xc90c0868d400	0xf70	File	0x12019f	\Device\NamedPipe\LOCAL\mojo.external_task_manager_5488
+28036:5488	msedge.exe	0xc90c08691be0	0xfac	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\shared_proto_db\metadata\LOCK
+28062:5488	msedge.exe	0xc90c0928e350	0x1018	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\GrShaderCache\index
+28074:5488	msedge.exe	0xc90c095244c0	0x104c	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\DawnWebGPUCache\data_0
+28076:5488	msedge.exe	0xc90c0868e6c0	0x1054	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\SharedStorage-wal
+28077:5488	msedge.exe	0xc90c095215e0	0x1058	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\DawnWebGPUCache\data_0
+28078:5488	msedge.exe	0xc90c08c3bee0	0x1060	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\DawnGraphiteCache\data_1
+28155:5488	msedge.exe	0xc90c07d55280	0x11a0	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\SharedStorage-shm
+28172:5488	msedge.exe	0xc90c09266120	0x11f0	File	0x120196	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Extension State\000006.log
+28176:5488	msedge.exe	0xc90c08c3d650	0x120c	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\DawnWebGPUCache\data_3
+28177:5488	msedge.exe	0xc90c086910f0	0x1210	File	0x120196	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Extension State\LOG
+28179:5488	msedge.exe	0xc90c08c3e5f0	0x1220	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\DawnGraphiteCache\data_2
+28202:5488	msedge.exe	0xc90c08c40210	0x12b4	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\DawnGraphiteCache\data_0
+28203:5488	msedge.exe	0xc90c0838f940	0x12b8	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Local Storage\leveldb\LOCK
+28207:5488	msedge.exe	0xc90c0885e600	0x12c8	File	0x120089	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\shared_proto_db\metadata\000005.ldb
+28208:5488	msedge.exe	0xc90c08862930	0x12cc	File	0x120196	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\shared_proto_db\metadata\000006.log
+28209:5488	msedge.exe	0xc90c08391d30	0x12d0	File	0x120196	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\shared_proto_db\metadata\MANIFEST-000004
+28221:5488	msedge.exe	0xc90c092743b0	0x1304	File	0x120089	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\shared_proto_db\000005.ldb
+28222:5488	msedge.exe	0xc90c08c3e780	0x1308	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\DawnGraphiteCache\data_2
+28223:5488	msedge.exe	0xc90c0927adf0	0x130c	File	0x120196	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\shared_proto_db\MANIFEST-000004
+28247:5488	msedge.exe	0xc90c0952ccb0	0x1390	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Favicons-journal
+28248:5488	msedge.exe	0xc90c08c2a410	0x1398	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Network Action Predictor-journal
+28260:5488	msedge.exe	0xc90c08c3f270	0x13cc	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\DawnGraphiteCache\index
+28263:5488	msedge.exe	0xc90c08c38380	0x13d8	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\GPUCache\data_2
+28273:5488	msedge.exe	0xc90c0928ee40	0x1404	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\GrShaderCache\index
+28274:5488	msedge.exe	0xc90c0928d6d0	0x140c	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\GrShaderCache\data_0
+28279:5488	msedge.exe	0xc90c092924f0	0x1424	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\GrShaderCache\data_1
+28281:5488	msedge.exe	0xc90c092908d0	0x142c	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\GrShaderCache\data_2
+28284:5488	msedge.exe	0xc90c09292e50	0x1438	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\GrShaderCache\data_3
+28285:5488	msedge.exe	0xc90c09291230	0x143c	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\GrShaderCache\data_3
+28288:5488	msedge.exe	0xc90c08696a00	0x1448	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\GraphiteDawnCache\index
+28291:5488	msedge.exe	0xc90c092913c0	0x1454	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\GraphiteDawnCache\data_0
+28293:5488	msedge.exe	0xc90c09292810	0x145c	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\GraphiteDawnCache\data_1
+28294:5488	msedge.exe	0xc90c09292360	0x1460	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\GraphiteDawnCache\data_1
+28296:5488	msedge.exe	0xc90c092929a0	0x1468	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\GraphiteDawnCache\data_2
+28297:5488	msedge.exe	0xc90c09292b30	0x146c	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\GraphiteDawnCache\data_2
+28299:5488	msedge.exe	0xc90c09290420	0x1478	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\GraphiteDawnCache\data_3
+28329:5488	msedge.exe	0xc90c08c37a20	0x1508	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\WebStorage\QuotaManager
+28330:5488	msedge.exe	0xc90c0884fba0	0x150c	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\WebStorage\QuotaManager-journal
+28354:5488	msedge.exe	0xc90c08c3d970	0x1578	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Nurturing\campaign_history-journal
+28394:5488	msedge.exe	0xc90c09b2acb0	0x1664	File	0x120089	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\EdgeCoupons\coupons_data.db\000010.ldb
+28409:5488	msedge.exe	0xc90c0885f410	0x16e4	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\EdgeEDrop\EdgeEDropSQLite.db
+28410:5488	msedge.exe	0xc90c07cb0dd0	0x16ec	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\ExtensionActivityEdge
+28411:5488	msedge.exe	0xc90c08c284d0	0x16f0	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\EdgeEDrop\EdgeEDropSQLite.db-journal
+28413:5488	msedge.exe	0xc90c0840a620	0x16f8	File	0x120196	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Service Worker\Database\LOG
+28436:5488	msedge.exe	0xc90c0951f9c0	0x1760	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\EdgeHubAppUsage\EdgeHubAppUsageSQLite.db
+28447:5488	msedge.exe	0xc90c0841a4d0	0x179c	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Service Worker\Database\LOCK
+28450:5488	msedge.exe	0xc90c0841bc40	0x17a8	File	0x120196	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Service Worker\Database\000003.log
+28452:5488	msedge.exe	0xc90c09507af0	0x17b0	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\ExtensionActivityComp
+28463:5488	msedge.exe	0xc90c09522260	0x17e4	File	0x120196	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\EdgeCoupons\coupons_data.db\LOG
+28525:5488	msedge.exe	0xc90c0950a200	0x18f8	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Shortcuts-journal
+28539:5488	msedge.exe	0xc90c09b41730	0x195c	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\WebAssistDatabase-journal
+28549:5488	msedge.exe	0xc90c0950b4c0	0x199c	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Network Action Predictor
+28557:5488	msedge.exe	0xc90c09519750	0x19c4	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\first_party_sets.db
+28561:5488	msedge.exe	0xc90c09520e10	0x19e4	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\GPUCache\data_0
+28565:5488	msedge.exe	0xc90c08c3fef0	0x19fc	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\DawnGraphiteCache\index
+28569:5488	msedge.exe	0xc90c0f152730	0x1a0c	File	0x120089	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\hyphen-data\101.0.4906.0\hyph-en-us.hyb
+28571:5488	msedge.exe	0xc90c08c3c520	0x1a14	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\GPUCache\data_1
+28575:5488	msedge.exe	0xc90c0951be60	0x1a24	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\first_party_sets.db-journal
+28580:5488	msedge.exe	0xc90c0950c140	0x1a3c	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\DIPS-journal
+28583:5488	msedge.exe	0xc90c09508450	0x1a4c	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Shortcuts
+28586:5488	msedge.exe	0xc90c095129f0	0x1a5c	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\DIPS
+28614:5488	msedge.exe	0xc90c0951aa10	0x1afc	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\EdgeHubAppUsage\EdgeHubAppUsageSQLite.db-journal
+28617:5488	msedge.exe	0xc90c08c3a2c0	0x1b08	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\GPUCache\index
+28623:5488	msedge.exe	0xc90c09528340	0x1b34	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\DawnGraphiteCache\data_1
+28624:5488	msedge.exe	0xc90c08c38ce0	0x1b38	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\GPUCache\data_1
+28628:5488	msedge.exe	0xc90c08419530	0x1b48	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Functional SAN Data-wal
+28635:5488	msedge.exe	0xc90c08c3db00	0x1b64	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\DawnGraphiteCache\data_3
+28642:5488	msedge.exe	0xc90c08c3c6b0	0x1b80	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\GPUCache\data_3
+28645:5488	msedge.exe	0xc90c0927ee00	0x1b8c	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\DawnWebGPUCache\index
+28646:5488	msedge.exe	0xc90c08c3c840	0x1b98	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\GPUCache\data_3
+28647:5488	msedge.exe	0xc90c08c37bb0	0x1b9c	File	0x1a019f	\Device\NamedPipe\LOCAL\mojo.5488.5704.16636916313394370828
+28650:5488	msedge.exe	0xc90c0841a980	0x1ba8	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Functional SAN Data
+28747:5488	msedge.exe	0xc90c07bc4b70	0x1d88	File	0x1a019f	\Device\NamedPipe\LOCAL\mojo.5488.5704.8422542964577197381
+28843:5488	msedge.exe	0xc90c095368f0	0x2048	File	0x1a019f	\Device\NamedPipe\LOCAL\mojo.5488.5704.11562510935734410039
+28878:5488	msedge.exe	0xc90c0951c4a0	0x2110	File	0x1a019f	\Device\NamedPipe\LOCAL\mojo.5488.5704.5089563337135510435
+28898:5488	msedge.exe	0xc90c09529dd0	0x21b8	File	0x1a019f	\Device\NamedPipe\LOCAL\mojo.5488.5704.8089490486492145300
+28910:5488	msedge.exe	0xc90c0a631ad0	0x220c	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db
+28929:5488	msedge.exe	0xc90c0a631ad0	0x225c	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db
+28943:5488	msedge.exe	0xc90c09509260	0x22b8	File	0x1a019f	\Device\NamedPipe\LOCAL\mojo.5488.5704.7952880927056372445
+28955:5488	msedge.exe	0xc90c09519a70	0x2304	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Collections\collectionsSQLite
+28956:5488	msedge.exe	0xc90c09518df0	0x2308	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Collections\collectionsSQLite-journal
+29023:5488	msedge.exe	0xc90c0ad6d8f0	0x2524	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\DashTrackerDatabase
+29086:5488	msedge.exe	0xc90c0ea90850	0x2690	File	0x100001	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Microsoft\SystemCertificates\My
+29114:5488	msedge.exe	0xc90c07cadbd0	0x2728	File	0x120196	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\EdgeCoupons\coupons_data.db\000009.log
+29200:5488	msedge.exe	0xc90c0f149db0	0x2a0c	File	0x1a019f	\Device\NamedPipe\LOCAL\mojo.5488.5704.14771759482741915279
+29223:5488	msedge.exe	0xc90c0ea870c0	0x2b20	File	0x1a019f	\Device\NamedPipe\LOCAL\mojo.5488.5704.729725981586726078
+29704:5768	msedge.exe	0xc90c09b23140	0x3f0	File	0x1a019f	\Device\NamedPipe\LOCAL\mojo.5488.5628.6337854750607911352
+29705:5768	msedge.exe	0xc90c0ea9aad0	0x3fc	File	0x1a019f	\Device\NamedPipe\LOCAL\mojo.5488.5628.17036294498833908578
+29713:5768	msedge.exe	0xc90c0867a4e0	0x434	File	0x1a019f	\Device\NamedPipe\LOCAL\mojo.5488.5628.3365618858206280787
+29723:5768	msedge.exe	0xc90c0ea8c390	0x490	File	0x1a019f	\Device\NamedPipe\LOCAL\mojo.5488.5628.11542781226525858374
+29725:5768	msedge.exe	0xc90c0ea96de0	0x4a4	File	0x1a019f	\Device\NamedPipe\LOCAL\mojo.5488.5628.8300803722311173475
+29748:5768	msedge.exe	0xc90c0ca0a200	0x5dc	File	0x1a019f	\Device\NamedPipe\LOCAL\mojo.5488.5628.3436387436225785458
+29758:5768	msedge.exe	0xc90c071fc7e0	0x8b0	File	0x12019f	\Device\NamedPipe\LOCAL\mojo.5488.5704.3498495581848260168
+29947:5780	msedge.exe	0xc90c092717f0	0x310	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Shared Dictionary\db
+29949:5780	msedge.exe	0xc90c0927d1e0	0x31c	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Safe Browsing Network\Safe Browsing Cookies
+29987:5780	msedge.exe	0xc90c0927b8e0	0x3d4	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Network\Trust Tokens-journal
+29990:5780	msedge.exe	0xc90c0927d9b0	0x3ec	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\index
+29997:5780	msedge.exe	0xc90c09285200	0x42c	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\data_0
+29998:5780	msedge.exe	0xc90c09282640	0x430	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\data_0
+29999:5780	msedge.exe	0xc90c0928a660	0x43c	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\data_1
+30003:5780	msedge.exe	0xc90c0928ab10	0x45c	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\data_2
+30007:5780	msedge.exe	0xc90c0928d860	0x470	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Cache\Cache_Data\data_3
+30014:5780	msedge.exe	0xc90c08c3f8b0	0x4d8	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Network\Reporting and NEL
+30039:5780	msedge.exe	0xc90c0ca19750	0x58c	File	0x12019f	\Device\NamedPipe\LOCAL\mojo.5488.5628.15606598755020397168
+30044:5780	msedge.exe	0xc90c0868c460	0x5dc	File	0x12019f	\Device\NamedPipe\LOCAL\mojo.5488.5628.6065999883810615212
+30046:5780	msedge.exe	0xc90c0868f980	0x5e4	File	0x12019f	\Device\NamedPipe\LOCAL\mojo.5488.5628.11312760759664883993
+30048:5780	msedge.exe	0xc90c0951aba0	0x614	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Network\Reporting and NEL-journal
+30056:5780	msedge.exe	0xc90c0952d2f0	0x6cc	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Network\Cookies-journal
+30069:5780	msedge.exe	0xc90c08084c10	0xa7c	File	0x12019f	\Device\NamedPipe\LOCAL\mojo.5488.5704.6382462184006296486
+30075:5780	msedge.exe	0xc90c0f176630	0xe70	File	0x12019f	\Device\NamedPipe\LOCAL\mojo.5488.5628.11154111101488152865
+30077:5780	msedge.exe	0xc90c0ca129f0	0xecc	File	0x12019f	\Device\NamedPipe\LOCAL\mojo.5488.5628.5745308777354717393
+30099:5792	msedge.exe	0xc90c09268380	0x48	File	0x120196	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Local Storage\leveldb\MANIFEST-000004
+30245:5792	msedge.exe	0xc90c08864870	0x298	File	0x120196	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Local Storage\leveldb\LOG
+30249:5792	msedge.exe	0xc90c09507e10	0x2b4	File	0x12019f	\Device\NamedPipe\LOCAL\mojo.5488.5628.16093870430401889691
+30256:5792	msedge.exe	0xc90c083913d0	0x2d8	File	0x12019f	\Device\NamedPipe\LOCAL\mojo.5488.5628.7231552286312410423
+30257:5792	msedge.exe	0xc90c0ca18300	0x2e0	File	0x12019f	\Device\NamedPipe\LOCAL\mojo.5488.5628.9120021126692861599
+30258:5792	msedge.exe	0xc90c0ca082c0	0x2ec	File	0x120089	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Session Storage\000013.ldb
+30259:5792	msedge.exe	0xc90c0ca14c50	0x2f4	File	0x12019f	\Device\NamedPipe\LOCAL\mojo.5488.5628.2378336624424145469
+30261:5792	msedge.exe	0xc90c0f2444a0	0x318	File	0x120089	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Local Storage\leveldb\000007.ldb
+30262:5792	msedge.exe	0xc90c0cb1c420	0x334	File	0x120196	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Edge\User Data\Default\Local Storage\leveldb\000006.log
+30264:5792	msedge.exe	0xc90c08396e70	0xa9c	File	0x12019f	\Device\NamedPipe\LOCAL\mojo.5488.5704.8369039137348100415
+30794:6368	vmtoolsd.exe	0xc90c08c0a6b0	0x240	File	0x120196	\Device\HarddiskVolume3\Windows\Temp\vmware-vmusr-Elon.log
+30810:6368	vmtoolsd.exe	0xc90c09525aa0	0x280	File	0x100001	\Device\HarddiskVolume3\ProgramData\Microsoft\Windows\Start Menu
+30926:6368	vmtoolsd.exe	0xc90c08c1e700	0x47c	File	0x100001	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Microsoft\Windows\Recent
+30972:6368	vmtoolsd.exe	0xc90c09525c30	0x5c4	File	0x100001	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Microsoft\Windows\Start Menu
+31053:6368	vmtoolsd.exe	0xc90c09514c50	0x764	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Microsoft\Windows\Explorer\iconcache_48.db
+32033:7540	msedge.exe	0xc90c0867b160	0x2bc	File	0x12019f	\Device\NamedPipe\LOCAL\mojo.5488.5628.3365618858206280787
+32035:7540	msedge.exe	0xc90c08677ab0	0x2c4	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Temp\f4b2e3ec-e050-4b58-9e6d-3154da6fbafb.tmp
+32077:7540	msedge.exe	0xc90c086861f0	0x36c	File	0x1a019f	\Device\NamedPipe\LOCAL\mojo.5488.5628.6065999883810615212
+32080:7540	msedge.exe	0xc90c09502500	0x378	File	0x1a019f	\Device\NamedPipe\LOCAL\mojo.5488.5628.16093870430401889691
+32114:7540	msedge.exe	0xc90c08c37ed0	0x13b0	File	0x12019f	\Device\NamedPipe\LOCAL\mojo.5488.5704.16636916313394370828
+32346:5088	msedge.exe	0xc90c086850c0	0x1d7c	File	0x12019f	\Device\NamedPipe\LOCAL\mojo.5488.5704.8422542964577197381
+33253:6700	ApplicationFra	0xa00e8b3dcdd0	0x654	Key	0xf003f	USER\S-1-5-21-3274565340-3808842250-3617890653-1001_CLASSES\LOCAL SETTINGS\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\APPMODEL\SYSTEMAPPDATA\MICROSOFT.WINDOWSCALCULATOR_8WEKYB3D8BBWE\PERSISTEDTITLEBARDATA
+34398:1200	msedge.exe	0xc90c09b2bde0	0x2f8	File	0x12019f	\Device\NamedPipe\LOCAL\mojo.5488.5628.6337854750607911352
+34425:1200	msedge.exe	0xc90c0868b650	0x388	File	0x1a019f	\Device\NamedPipe
+34426:1200	msedge.exe	0xc90c0868e850	0x38c	File	0x1a019f	\Device\NamedPipe\LOCAL\mojo.5488.5628.7231552286312410423
+34641:5364	thunderbird.ex	0xc90c0ad720d0	0x2fc	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Thunderbird\Profiles\3g9uyosd.default-esr\parent.lock
+34700:5364	thunderbird.ex	0xc90c0cb1a800	0x3f8	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Thunderbird\Profiles\3g9uyosd.default-esr\history.sqlite-shm
+34760:5364	thunderbird.ex	0xc90c0a620320	0x4fc	File	0x12019f	\Device\HarddiskVolume3\ProgramData\Mozilla-1de4eec8-1241-4177-a864-e594e8d1fb38\UpdateLock-D78BF5DD33499EC2
+34766:5364	thunderbird.ex	0xc90c0a6362b0	0x518	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Thunderbird\Profiles\3g9uyosd.default-esr\cookies.sqlite-wal
+34771:5364	thunderbird.ex	0xc90c0a634690	0x530	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Thunderbird\Profiles\3g9uyosd.default-esr\cookies.sqlite
+34788:5364	thunderbird.ex	0xc90c0a609d50	0x57c	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Thunderbird\Profiles\3g9uyosd.default-esr\cert9.db
+34791:5364	thunderbird.ex	0xc90c0a62c1c0	0x588	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Thunderbird\Profiles\3g9uyosd.default-esr\key4.db
+34903:5364	thunderbird.ex	0xc90c0a6336f0	0x758	File	0x1a019f	\Device\NamedPipe\gecko-crash-server-pipe.5364
+34908:5364	thunderbird.ex	0xc90c0a6328e0	0x76c	File	0x1a019f	\Device\NamedPipe
+34911:5364	thunderbird.ex	0xc90c0a632c00	0x778	File	0x120089	\Device\NamedPipe
+34912:5364	thunderbird.ex	0xc90c0a631620	0x77c	File	0x120189	\Device\NamedPipe
+34998:5364	thunderbird.ex	0xc90c0ad79ab0	0x8dc	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Thunderbird\Profiles\3g9uyosd.default-esr\permissions.sqlite
+35017:5364	thunderbird.ex	0xc90c0a6357c0	0x938	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Thunderbird\Profiles\3g9uyosd.default-esr\cookies.sqlite-shm
+35054:5364	thunderbird.ex	0xc90c0ad80680	0x9d4	File	0x120189	\Device\NamedPipe
+35118:5364	thunderbird.ex	0xc90c0ad804f0	0xb28	File	0x1a019f	\Device\NamedPipe\chrome.5364.2.38465111
+35154:5364	thunderbird.ex	0xc90c0a63c200	0xbdc	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Thunderbird\Profiles\3g9uyosd.default-esr\storage.sqlite
+35191:5364	thunderbird.ex	0xc90c08414bc0	0x109c	File	0x1a019f	\Device\NamedPipe\LOCAL\cubeb-pipe-5364-0
+35212:5364	thunderbird.ex	0xc90c0ad768b0	0x1104	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Thunderbird\Profiles\3g9uyosd.default-esr\blist.sqlite
+35250:5364	thunderbird.ex	0xc90c0cb0d9c0	0x11d8	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Thunderbird\Profiles\3g9uyosd.default-esr\history.sqlite-wal
+35263:5364	thunderbird.ex	0xc90c0ad5d720	0x1220	File	0x1a019f	\Device\NamedPipe\LOCAL\cubeb-pipe-5364-1
+35283:5364	thunderbird.ex	0xc90c08c26a40	0x1290	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Thunderbird\Profiles\3g9uyosd.default-esr\storage\default\https+++www.mozilla.org\ls\data.sqlite
+35296:5364	thunderbird.ex	0xc90c0cb12c90	0x12fc	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Thunderbird\Profiles\3g9uyosd.default-esr\favicons.sqlite-wal
+35302:5364	thunderbird.ex	0xc90c0ad8e910	0x133c	File	0x1a019f	\Device\NamedPipe\chrome.5364.4.138522682
+35304:5364	thunderbird.ex	0xc90c0cb0aae0	0x1364	File	0x120089	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Thunderbird\Profiles\3g9uyosd.default-esr\places.sqlite
+35308:5364	thunderbird.ex	0xc90c0cb0b2b0	0x13a0	File	0x12019f	\Device\HarddiskVolume3\Users\Elon\AppData\Roaming\Thunderbird\Profiles\3g9uyosd.default-esr\places.sqlite-wal
+35316:5364	thunderbird.ex	0xc90c0ad8ec30	0x1420	File	0x120189	\Device\NamedPipe
+35320:5364	thunderbird.ex	0xc90c0953a2c0	0x1438	File	0x1a019f	\Device\NamedPipe\chrome.5364.5.49291140
+35327:5364	thunderbird.ex	0xc90c0953a450	0x1460	File	0x120189	\Device\NamedPipe
+35857:7460	OfficeClickToR	0xc90c0ca2a280	0x798	File	0x12019f	\Device\HarddiskVolume3\ProgramData\Microsoft\ClickToRun\ProductReleases\82EC55FB-59FD-43E9-A01F-FE5FE28E57F6\operations.db
+36724:9340	svchost.exe	0xc90c0f148af0	0x14c	File	0x120089	\Device\NamedPipe\
+36725:9340	svchost.exe	0xc90c0f148c80	0x150	File	0x120189	\Device\NamedPipe
+36734:9340	svchost.exe	0xc90c0f14c4c0	0x174	File	0x120196	\Device\NamedPipe
+36943:10108	AppVShNotify.e	0xc90c0cb2f1b0	0x18c	File	0x100000	\Device\NamedPipe\ShortcutNotifier_10108
+36944:10108	AppVShNotify.e	0xc90c0cb2ed00	0x194	File	0x12019f	\Device\NamedPipe\ShortcutNotifier_10108
+36949:10108	AppVShNotify.e	0xc90c0cb318c0	0x1a8	File	0x12019f	\Device\NamedPipe\FTA_10108
+36950:10108	AppVShNotify.e	0xc90c0cb30dd0	0x1ac	File	0x100000	\Device\NamedPipe\FTA_10108
+36951:10108	AppVShNotify.e	0xc90c0cb310f0	0x1b0	File	0x12019f	\Device\NamedPipe\FTA_10108
+36952:10108	AppVShNotify.e	0xc90c0cb31a50	0x1b4	File	0x100000	\Device\NamedPipe\ShellEx_10108
+36953:10108	AppVShNotify.e	0xc90c0cb2f340	0x1b8	File	0x12019f	\Device\NamedPipe\ShellEx_10108
+36954:10108	AppVShNotify.e	0xc90c0cb2e9e0	0x1bc	File	0x12019f	\Device\NamedPipe\ShellEx_10108
+37004:10108	AppVShNotify.e	0xc90c0f174a10	0x2c0	File	0x12019f	\Device\NamedPipe\ShortcutNotifier_10108
+37005:10108	AppVShNotify.e	0xc90c0f1746f0	0x2c8	File	0x12019f	\Device\NamedPipe\ShortcutNotifier_10108
+37219:9296	SearchIndexer.	0xc90c0d45d3b0	0x368	Event	0x1f0003	UsGthrCtrlFltPipeMssGthrPipe3DRE
+37268:9296	SearchIndexer.	0xc90c0f267270	0x444	File	0x13019f	\Device\HarddiskVolume3\ProgramData\Microsoft\Search\Data\Applications\Windows\Windows.jfm
+37316:9296	SearchIndexer.	0xc90c0f260b50	0x508	File	0x13019f	\Device\HarddiskVolume3\ProgramData\Microsoft\Search\Data\Applications\Windows\Windows.edb
+37322:9296	SearchIndexer.	0xc90c0f168850	0x520	File	0x12019f	\Device\NamedPipe\MsFteWds
+37568:9296	SearchIndexer.	0xc90c0f26b730	0x994	File	0x1a0116	\Device\NamedPipe\SearchTextHarvester
+37580:9296	SearchIndexer.	0xc90c0ca06830	0x9c4	File	0x12019f	\Device\NamedPipe\MsFteWds
+37600:9296	SearchIndexer.	0xa00e8c908ad0	0xa1c	Section	0xf0007	UsGthrFltPipeMssGthrPipe3_1
+37617:9296	SearchIndexer.	0xc90c0d4543f0	0xa94	Event	0x1f0003	UsGthrCtrlFltPipeMssGthrPipe3SDE
+37641:9296	SearchIndexer.	0xc90c0d45c2d0	0xb00	Semaphore	0x1f0003	UsGthrFltPipeMssGthrPipe3_1TRM
+37646:9296	SearchIndexer.	0xc90c0d45d130	0xb1c	Event	0x1f0003	UsGthrFltPipeMssGthrPipe3_1DSE
+37648:9296	SearchIndexer.	0xc90c09d34f50	0xb24	Semaphore	0x1f0003	UsGthrCtrlFltPipeMssGthrPipe_S-1-5-21-3274565340-3808842250-3617890653-10012RCM
+37650:9296	SearchIndexer.	0xc90c09d34230	0xb2c	Semaphore	0x1f0003	UsGthrFltPipeMssGthrPipe_S-1-5-21-3274565340-3808842250-3617890653-10012_1RCM
+37652:9296	SearchIndexer.	0xc90c09d33970	0xb34	Event	0x1f0003	UsGthrCtrlFltPipeMssGthrPipe_S-1-5-21-3274565340-3808842250-3617890653-10012DSE
+37653:9296	SearchIndexer.	0xc90c09d28390	0xb38	Event	0x1f0003	UsGthrCtrlFltPipeMssGthrPipe_S-1-5-21-3274565340-3808842250-3617890653-10012SDE
+37655:9296	SearchIndexer.	0xc90c09d35090	0xb40	Semaphore	0x1f0003	UsGthrCtrlFltPipeMssGthrPipe_S-1-5-21-3274565340-3808842250-3617890653-10012TRM
+37657:9296	SearchIndexer.	0xc90c09d33650	0xb48	Event	0x1f0003	UsGthrCtrlFltPipeMssGthrPipe_S-1-5-21-3274565340-3808842250-3617890653-10012DRE
+37689:9296	SearchIndexer.	0xa00e878bced0	0xbc8	Section	0xf0007	UsGthrCtrlFltPipeMssGthrPipe_S-1-5-21-3274565340-3808842250-3617890653-10012
+37690:9296	SearchIndexer.	0xc90c09d33790	0xbcc	Event	0x1f0003	UsGthrCtrlFltPipeMssGthrPipe_S-1-5-21-3274565340-3808842250-3617890653-10012DAE
+37697:9296	SearchIndexer.	0xa00e878bcc90	0xbec	Section	0xf0007	UsGthrFltPipeMssGthrPipe_S-1-5-21-3274565340-3808842250-3617890653-10012_1
+37698:9296	SearchIndexer.	0xc90c09d338d0	0xbf0	Event	0x1f0003	UsGthrFltPipeMssGthrPipe_S-1-5-21-3274565340-3808842250-3617890653-10012_1DRE
+37699:9296	SearchIndexer.	0xc90c09d28d90	0xbf4	Event	0x1f0003	UsGthrFltPipeMssGthrPipe_S-1-5-21-3274565340-3808842250-3617890653-10012_1DAE
+37700:9296	SearchIndexer.	0xc90c09d27cb0	0xbf8	Event	0x1f0003	UsGthrFltPipeMssGthrPipe_S-1-5-21-3274565340-3808842250-3617890653-10012_1DSE
+37701:9296	SearchIndexer.	0xc90c09d33dd0	0xbfc	Semaphore	0x1f0003	UsGthrFltPipeMssGthrPipe_S-1-5-21-3274565340-3808842250-3617890653-10012_1TRM
+37718:9296	SearchIndexer.	0xc90c0d45e5d0	0xc44	Semaphore	0x1f0003	UsGthrCtrlFltPipeMssGthrPipe3RCM
+37719:9296	SearchIndexer.	0xc90c0d45d630	0xc48	Event	0x1f0003	UsGthrCtrlFltPipeMssGthrPipe3DSE
+37722:9296	SearchIndexer.	0xc90c0d45d4f0	0xc54	Event	0x1f0003	UsGthrFltPipeMssGthrPipe3_1DAE
+37723:9296	SearchIndexer.	0xc90c0d45d590	0xc58	Event	0x1f0003	UsGthrCtrlFltPipeMssGthrPipe3DAE
+37729:9296	SearchIndexer.	0xc90c0d45cf50	0xc7c	Event	0x1f0003	UsGthrFltPipeMssGthrPipe3_1DRE
+37735:9296	SearchIndexer.	0xc90c0d45c370	0xc94	Semaphore	0x1f0003	UsGthrCtrlFltPipeMssGthrPipe3TRM
+37737:9296	SearchIndexer.	0xa00e8c908d10	0xc9c	Section	0xf0007	UsGthrCtrlFltPipeMssGthrPipe3
+37739:9296	SearchIndexer.	0xc90c0ca0ee90	0xca8	File	0x13019f	\Device\HarddiskVolume3\ProgramData\Microsoft\Search\Data\Applications\Windows\edb.jtxjtx
+37742:9296	SearchIndexer.	0xc90c0ca13990	0xcb8	File	0x13019f	\Device\HarddiskVolume3\ProgramData\Microsoft\Search\Data\Applications\Windows\edbtmp.jtx
+37949:4164	SearchProtocol	0xc90c09d28390	0x340	Event	0x1f0003	UsGthrCtrlFltPipeMssGthrPipe_S-1-5-21-3274565340-3808842250-3617890653-10012SDE
+37951:4164	SearchProtocol	0xa00e878bced0	0x348	Section	0xf001f	UsGthrCtrlFltPipeMssGthrPipe_S-1-5-21-3274565340-3808842250-3617890653-10012
+37952:4164	SearchProtocol	0xc90c09d33790	0x34c	Event	0x1f0003	UsGthrCtrlFltPipeMssGthrPipe_S-1-5-21-3274565340-3808842250-3617890653-10012DAE
+37963:4164	SearchProtocol	0xc90c09d33970	0x378	Event	0x1f0003	UsGthrCtrlFltPipeMssGthrPipe_S-1-5-21-3274565340-3808842250-3617890653-10012DSE
+37964:4164	SearchProtocol	0xc90c09d33650	0x37c	Event	0x1f0003	UsGthrCtrlFltPipeMssGthrPipe_S-1-5-21-3274565340-3808842250-3617890653-10012DRE
+37965:4164	SearchProtocol	0xc90c09d35090	0x380	Semaphore	0x1f0003	UsGthrCtrlFltPipeMssGthrPipe_S-1-5-21-3274565340-3808842250-3617890653-10012TRM
+37966:4164	SearchProtocol	0xc90c09d34f50	0x384	Semaphore	0x1f0003	UsGthrCtrlFltPipeMssGthrPipe_S-1-5-21-3274565340-3808842250-3617890653-10012RCM
+37978:4164	SearchProtocol	0xa00e878bcc90	0x3b8	Section	0xf001f	UsGthrFltPipeMssGthrPipe_S-1-5-21-3274565340-3808842250-3617890653-10012_1
+37979:4164	SearchProtocol	0xc90c09d338d0	0x3bc	Event	0x1f0003	UsGthrFltPipeMssGthrPipe_S-1-5-21-3274565340-3808842250-3617890653-10012_1DRE
+37980:4164	SearchProtocol	0xc90c09d28d90	0x3c0	Event	0x1f0003	UsGthrFltPipeMssGthrPipe_S-1-5-21-3274565340-3808842250-3617890653-10012_1DAE
+37981:4164	SearchProtocol	0xc90c09d27cb0	0x3c4	Event	0x1f0003	UsGthrFltPipeMssGthrPipe_S-1-5-21-3274565340-3808842250-3617890653-10012_1DSE
+37982:4164	SearchProtocol	0xc90c09d33dd0	0x3c8	Semaphore	0x1f0003	UsGthrFltPipeMssGthrPipe_S-1-5-21-3274565340-3808842250-3617890653-10012_1TRM
+37983:4164	SearchProtocol	0xc90c09d34230	0x3cc	Semaphore	0x1f0003	UsGthrFltPipeMssGthrPipe_S-1-5-21-3274565340-3808842250-3617890653-10012_1RCM
+38190:4464	msedge.exe	0xc90c0ea9bc00	0x2e8	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Temp\e45b556d-c112-468f-b7b4-4aa43b95d1a1.tmp
+38191:4464	msedge.exe	0xc90c0ea9b750	0x2ec	File	0x12019f	\Device\NamedPipe
+38237:4464	msedge.exe	0xc90c0ca18170	0x3a4	File	0x1a019f	\Device\NamedPipe\LOCAL\mojo.5488.5628.15606598755020397168
+38239:4464	msedge.exe	0xc90c0ca195c0	0x3ac	File	0x1a019f	\Device\NamedPipe\LOCAL\mojo.5488.5628.9120021126692861599
+38259:4464	msedge.exe	0xc90c0ea89960	0x2480	File	0x12019f	\Device\NamedPipe\LOCAL\mojo.5488.5704.729725981586726078
+38594:1880	msedge.exe	0xc90c0ea991d0	0x2e8	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Temp\a0fe0a23-0664-40c9-b5ee-a8737bcb678c.tmp
+38595:1880	msedge.exe	0xc90c0ea9c0b0	0x2ec	File	0x12019f	\Device\NamedPipe\LOCAL\mojo.5488.5628.8300803722311173475
+38643:1880	msedge.exe	0xc90c0ca12090	0x3b8	File	0x1a019f	\Device\NamedPipe\LOCAL\mojo.5488.5628.5745308777354717393
+38645:1880	msedge.exe	0xc90c0ca13350	0x3c4	File	0x1a019f	\Device\NamedPipe\LOCAL\mojo.5488.5628.2378336624424145469
+38705:1880	msedge.exe	0xc90c0f153090	0x1e8c	File	0x12019f	\Device\NamedPipe\LOCAL\mojo.5488.5704.14771759482741915279
+39050:1920	msedge.exe	0xc90c0ea8fd60	0x2b4	File	0x12019f	\Device\NamedPipe\LOCAL\mojo.5488.5628.11542781226525858374
+39052:1920	msedge.exe	0xc90c0ea8b580	0x2bc	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Temp\4bc4f596-f17b-4b5b-9b23-7a499e8077e0.tmp
+39073:1920	msedge.exe	0xc90c0f174ec0	0x310	File	0x1a019f	\Device\NamedPipe\LOCAL\mojo.5488.5628.11154111101488152865
+39335:6388	SearchProtocol	0xc90c0d4543f0	0x340	Event	0x1f0003	UsGthrCtrlFltPipeMssGthrPipe3SDE
+39338:6388	SearchProtocol	0xa00e8c908d10	0x34c	Section	0xf001f	UsGthrCtrlFltPipeMssGthrPipe3
+39349:6388	SearchProtocol	0xc90c0d45d3b0	0x378	Event	0x1f0003	UsGthrCtrlFltPipeMssGthrPipe3DRE
+39350:6388	SearchProtocol	0xc90c0d45d590	0x37c	Event	0x1f0003	UsGthrCtrlFltPipeMssGthrPipe3DAE
+39351:6388	SearchProtocol	0xc90c0d45d630	0x380	Event	0x1f0003	UsGthrCtrlFltPipeMssGthrPipe3DSE
+39352:6388	SearchProtocol	0xc90c0d45c370	0x384	Semaphore	0x1f0003	UsGthrCtrlFltPipeMssGthrPipe3TRM
+39353:6388	SearchProtocol	0xc90c0d45e5d0	0x388	Semaphore	0x1f0003	UsGthrCtrlFltPipeMssGthrPipe3RCM
+39365:6388	SearchProtocol	0xa00e8c908ad0	0x3b8	Section	0xf001f	UsGthrFltPipeMssGthrPipe3_1
+39366:6388	SearchProtocol	0xc90c0d45cf50	0x3bc	Event	0x1f0003	UsGthrFltPipeMssGthrPipe3_1DRE
+39367:6388	SearchProtocol	0xc90c0d45d4f0	0x3c0	Event	0x1f0003	UsGthrFltPipeMssGthrPipe3_1DAE
+39368:6388	SearchProtocol	0xc90c0d45d130	0x3c4	Event	0x1f0003	UsGthrFltPipeMssGthrPipe3_1DSE
+39369:6388	SearchProtocol	0xc90c0d45c2d0	0x3c8	Semaphore	0x1f0003	UsGthrFltPipeMssGthrPipe3_1TRM
+39682:6404	msedge.exe	0xc90c0ca0dbd0	0x2dc	File	0x12019f	\Device\NamedPipe\LOCAL\mojo.5488.5628.3436387436225785458
+39684:6404	msedge.exe	0xc90c0ca09bc0	0x2e4	File	0x13019f	\Device\HarddiskVolume3\Users\Elon\AppData\Local\Temp\c4d66f05-fbce-4100-b35c-7ae2aefd2039.tmp
+40083:2820	smartscreen.ex	0xc90c0ca179a0	0x37c	File	0x12019f	\Device\NamedPipe\wkssvc
+41128:3692	powershell.exe	0xc90c0eab61e0	0x708	File	0x1a019f	\Device\NamedPipe\PSHost.133655004037352519.3692.DefaultAppDomain.powershell
+41464:2416	net.exe	0xc90c0ea911b0	0x118	File	0x12019f	\Device\NamedPipe\wkssvc

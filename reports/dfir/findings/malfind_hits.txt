@@ -1,0 +1,13 @@
+3:PID	Process	Start VPN	End VPN	Tag	Protection	CommitCharge	PrivateMemory	File output	Notes	Hexdump	Disasm
+5:7848	RuntimeBroker.	0x230013f0000	0x230013fffff	VadS	PAGE_EXECUTE_READ	16	1	Disabled	N/A	
+10:4492	thunderbird.ex	0x1bfe20e0000	0x1bfe20effff	VadS	PAGE_EXECUTE_READ	16	1	Disabled	N/A	
+15:4492	thunderbird.ex	0x1bfe2300000	0x1bfe230ffff	VadS	PAGE_EXECUTE_READ	16	1	Disabled	N/A	
+20:3644	thunderbird.ex	0x2b991750000	0x2b99175ffff	VadS	PAGE_EXECUTE_READ	16	1	Disabled	N/A	
+25:3644	thunderbird.ex	0x2b9917e0000	0x2b9917effff	VadS	PAGE_EXECUTE_READ	16	1	Disabled	N/A	
+30:3004	thunderbird.ex	0x1a785f40000	0x1a785f4ffff	VadS	PAGE_EXECUTE_READ	16	1	Disabled	N/A	
+35:2820	smartscreen.ex	0x153f35a0000	0x153f35bffff	VadS	PAGE_EXECUTE_READWRITE	1	1	Disabled	N/A	
+40:3692	powershell.exe	0x1cb6aa50000	0x1cb6aa5ffff	VadS	PAGE_EXECUTE_READWRITE	2	1	Disabled	N/A	
+45:3692	powershell.exe	0x1cb6c3e0000	0x1cb6c3e6fff	VadS	PAGE_EXECUTE_READWRITE	1	1	Disabled	N/A	
+50:3692	powershell.exe	0x1cb6cac0000	0x1cb6cacffff	VadS	PAGE_EXECUTE_READWRITE	9	1	Disabled	N/A	
+55:3692	powershell.exe	0x7df44e2c0000	0x7df44e2cffff	VadS	PAGE_EXECUTE_READWRITE	1	1	Disabled	N/A	
+60:3692	powershell.exe	0x7df44e2d0000	0x7df44e36ffff	VadS	PAGE_EXECUTE_READWRITE	2	1	Disabled	N/A	

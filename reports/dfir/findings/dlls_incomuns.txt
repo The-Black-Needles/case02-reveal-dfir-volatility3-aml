@@ -1,0 +1,1 @@
+1250:3656	explorer.exe	0x7fffd18d0000	0x18e000	FileSyncShell64.dll	C:\Users\Elon\AppData\Local\Microsoft\OneDrive\21.220.1024.0005\amd64\FileSyncShell64.dll	2024-07-04 10:45:01.000000 UTC	Disabled
