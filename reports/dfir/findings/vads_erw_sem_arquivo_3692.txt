@@ -1,0 +1,5 @@
+3692	powershell.exe	0xffffc90c07ed3560	0x1cb6aa50000	0x1cb6aa5ffff	VadS	PAGE_EXECUTE_READWRITE	2	1	0xffffc90c07ed3330	N/A	Disabled
+3692	powershell.exe	0xffffc90c0f03d650	0x1cb6c3e0000	0x1cb6c3e6fff	VadS	PAGE_EXECUTE_READWRITE	1	1	0xffffc90c0cd792e0	N/A	Disabled
+3692	powershell.exe	0xffffc90c0e76f0f0	0x1cb6cac0000	0x1cb6cacffff	VadS	PAGE_EXECUTE_READWRITE	9	1	0xffffc90c0cd7bcc0	N/A	Disabled
+3692	powershell.exe	0xffffc90c07ed89c0	0x7df44e2c0000	0x7df44e2cffff	VadS	PAGE_EXECUTE_READWRITE	1	1	0xffffc90c0f040f30	N/A	Disabled
+3692	powershell.exe	0xffffc90c07ed86f0	0x7df44e2d0000	0x7df44e36ffff	VadS	PAGE_EXECUTE_READWRITE	2	1	0xffffc90c0c30bf40	N/A	Disabled

