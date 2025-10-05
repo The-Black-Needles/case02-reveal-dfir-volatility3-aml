@@ -1,7 +1,7 @@
 # Blue Team AML Portfolio
 
 Portfólio prático focado em **cibersegurança defensiva**, cobrindo **antifraude/AML**, **Pandas/SQL** para detecção e **DFIR (Volatility 3)**.
-**Objetivo:** demonstrar desenho de **regras**, **tuning baseado em dados** e **investigação forense** com entrega executiva de achados — alinhado à vaga de **Analista de Segurança da Informação Jr (Topaz)**.
+**Objetivo:** demonstrar desenho de **regras**, **tuning baseado em dados** e **investigação forense** com entrega executiva de achados**.
 
 ## 🔎 Highlights (o que este repo prova)
 
@@ -67,9 +67,6 @@ Abra `pandas/01_eda.ipynb`. O dataset sintético está em `data/paysim.parquet`.
 **Status:** **0 hits nos artefatos originais** (recorte não capturou), **1 hit** nas **amostras de teste** (prova de conceito).
 **Saída:** `reports/alerts/dayX_ruleB_svchost_http_like_external.csv`.
 
-> **Consolidado:** `reports/alerts/dayX_alerts_all.csv` reúne as três regras (A/B/C).
-> **Nota sobre A/B “sem hits” no dump real:** é normal em forense (tempo de captura ≠ tempo da atividade). Para fins de portfólio, as amostras em `tests/` mostram **capacidade de escrever e testar regras**, como pedido na vaga (configurar/ajustar/testar do dev à produção).
-
 ---
 
 ## 🕵️ DFIR (Reveal / Volatility 3)
@@ -89,7 +86,6 @@ Abra `pandas/01_eda.ipynb`. O dataset sintético está em `data/paysim.parquet`.
 ## 🧪 Reprodutibilidade (testes mínimos)
 
 * **Amostras** em `tests/` garantem que as Regras **A/B** gerem **pelo menos 1 alerta** em ambiente controlado, provando a **lógica e scoring**.
-* Próximo passo (roadmap): mover lógicas A/B/C para `.py`/`.sql` + **harness** em `tests/` (pytest) e **dataset maior** (para ter hits reais também em A/B).
 
 ---
 
