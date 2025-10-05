@@ -1,15 +1,3 @@
-boa! faz todo sentido destacar o conjunto do portfólio, não só o relatório do Reveal. Abaixo vai um **README completo e enxuto**, pronto pra colar, que:
-
-* abre com o **resumo do projeto**,
-* mostra **highlights**, **mapa do repositório**, **como rodar**,
-* explica o **rule pack (A/B/C)** com status atual (A/B sem hits ainda, intencional)
-* linka o **relatório do Reveal** e
-* fecha com **como isso mapeia para a vaga da Topaz** + próximos passos curtos.
-
-> Cole no seu `README.md` (pode substituir o arquivo inteiro). Depois rode os 3 comandos no final para versionar.
-
----
-
 # Blue Team AML Portfolio
 
 Portfólio prático focado em **cibersegurança defensiva**, cobrindo **antifraude/AML**, **Pandas/SQL** para detecção e **DFIR (Volatility 3)**.
