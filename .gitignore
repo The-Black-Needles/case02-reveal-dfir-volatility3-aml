@@ -30,3 +30,8 @@ reports/*.pdf
 
 # Ignore local SQLite databases and data artifacts
 data/
+
+# nunca versionar currículos
+resume/
+*.pdf
+*.docx
