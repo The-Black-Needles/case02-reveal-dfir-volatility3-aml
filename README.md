@@ -1,7 +1,7 @@
 # Blue Team AML Portfolio
 
 Portfólio prático focado em **cibersegurança defensiva**, cobrindo **antifraude/AML**, **Pandas/SQL** para detecção e **DFIR (Volatility 3)**.
-**Objetivo:** demonstrar desenho de **regras**, **tuning baseado em dados** e **investigação forense** com entrega executiva de achados**.
+**Objetivo:** demonstrar desenho de **regras**, **tuning baseado em dados** e **investigação forense** com entrega executiva de achados.
 
 ## 🔎 Highlights (o que este repo prova)
 
@@ -44,15 +44,6 @@ Abra `pandas/01_eda.ipynb`. O dataset sintético está em `data/paysim.parquet`.
 
 ## 🧠 Rule Pack (v1) — AML & DFIR
 
-### C) AML — Burst 1h por CPF (entrega ativa)
-
-**Ideia:** sinalizar clientes com volume/valor **atípico** em janela de **60min**.
-**Lógica (exemplo):**
-
-* `tx_count_60m >= 4` **ou** `amount_sum_60m >= 1000`
-  **Saída:** `reports/alerts/dayX_ruleC_aml_burst_1h.csv` (tem pelo menos 1 linha no dataset de exemplo).
-  **Uso didático:** mostra **agregação temporal**, **perfil por cliente** e geração de **alertas reproduzíveis**.
-
 ### A) DFIR — WebDAV + rundll32 + PowerShell oculto (ampliada)
 
 **Ideia:** detectar **LOLBAS** (execução via Living-off-the-Land).
@@ -66,6 +57,14 @@ Abra `pandas/01_eda.ipynb`. O dataset sintético está em `data/paysim.parquet`.
 **Fontes:** `netscan` do Volatility + amostra em `tests/dfir_netscan_samples.txt`.
 **Status:** **0 hits nos artefatos originais** (recorte não capturou), **1 hit** nas **amostras de teste** (prova de conceito).
 **Saída:** `reports/alerts/dayX_ruleB_svchost_http_like_external.csv`.
+
+### C) AML — Burst 1h por CPF (entrega ativa)
+
+**Ideia:** sinalizar clientes com volume/valor **atípico** em janela de **60min**.
+**Lógica (exemplo):**
+* `tx_count_60m >= 4` **ou** `amount_sum_60m >= 1000`
+  **Saída:** `reports/alerts/dayX_ruleC_aml_burst_1h.csv` (tem pelo menos 1 linha no dataset de exemplo).
+  **Uso didático:** mostra **agregação temporal**, **perfil por cliente** e geração de **alertas reproduzíveis**.
 
 ---
 
