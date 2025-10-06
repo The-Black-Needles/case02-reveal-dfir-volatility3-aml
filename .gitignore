@@ -35,3 +35,8 @@ data/
 resume/
 *.pdf
 *.docx
+
+# nunca versionar currículos
+resume/
+*.pdf
+*.docx
