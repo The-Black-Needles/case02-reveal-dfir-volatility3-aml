@@ -11,7 +11,7 @@ Estação Windows com acesso a dados financeiros foi sinalizada pelo SIEM por po
 **Escopo**  
 Identificar **processos/linhas de comando**, **conexões externas**, sinais de **injeção/persistência** e montar uma **timeline** do incidente.
 
-**Escopo & abordagem de revelação (resumo)**  
+**Escopo & abordagem Reveal Lab (resumo)**  
 - **Objetivo:** compreender **natureza**, **sistemas afetados**, **cronologia** e **impacto** para mitigar risco e endereçar **causa-raiz**.  
 - **Âmbito:** alerta do **SIEM** em estação com dados financeiros; **artefato** analisado: dump de memória (~2 GB) de **Windows 10**.  
 - **Ferramenta:** **Volatility 3** (arquitetura de plugins + tabelas de símbolos) para interpretar estruturas do SO e extrair evidências.
@@ -20,7 +20,6 @@ Identificar **processos/linhas de comando**, **conexões externas**, sinais de *
 
 ## 2) Sobre este repositório
 
-**Blue Team AML Portfolio**  
 Portfólio prático focado em cibersegurança defensiva, cobrindo **antifraude/AML**, **Pandas/SQL** para detecção e **DFIR** (Volatility 3).  
 **Objetivo:** demonstrar **desenho de regras**, **tuning baseado em dados** e **investigação forense** com **entrega executiva** de achados.
 
