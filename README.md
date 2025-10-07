@@ -52,7 +52,7 @@ Portfólio prático focado em cibersegurança defensiva, cobrindo **antifraude/A
 
 ## 4) Conteúdo do repositório
 
-\`\`\`
+```
 .
 ├── data/                     # dados (ex.: paysim.parquet)
 ├── notebooks/                # notebooks (EDA, regras, tuning)
@@ -64,18 +64,18 @@ Portfólio prático focado em cibersegurança defensiva, cobrindo **antifraude/A
 ├── tests/                    # amostras mínimas p/ testar regras A/B
 ├── SECURITY.md
 └── README.md
-\`\`\`
+```
 
 ---
 
-## 5) Como rodar localmente
+## 5) Como rodar localmente (bash)
 
-\`\`\`bash
+```
 python3 -m venv .venv
 source .venv/bin/activate
 pip install pandas pyarrow jupyter
 jupyter notebook
-\`\`\`
+```
 
 Abra \`notebooks/01_eda.ipynb\`. O dataset sintético está em \`data/paysim.parquet\`.  
 (Para DFIR/Volatility, veja \`reports/dfir/\` e o relatório \`reports/IR_Reveal.md\`.)
