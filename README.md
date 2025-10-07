@@ -52,99 +52,83 @@ Portfólio prático focado em cibersegurança defensiva, cobrindo **antifraude/A
 ---
 
 ## 4) Conteúdo do repositório
+
+\`\`\`
 .
-├── data/ # dados (ex.: paysim.parquet)
-├── notebooks/ # notebooks (EDA, regras, tuning)
-│ └── 01_eda.ipynb
+├── data/                     # dados (ex.: paysim.parquet)
+├── notebooks/                # notebooks (EDA, regras, tuning)
+│   └── 01_eda.ipynb
 ├── reports/
-│ ├── alerts/ # CSVs de alertas gerados (A/B/C + consolidado)
-│ ├── dfir/ # artefatos do Volatility (cmdline, netscan, dlllist...)
-│ └── IR_Reveal.md # relatório completo do lab Reveal (DFIR)
-├── tests/ # amostras mínimas p/ testar regras A/B
+│   ├── alerts/               # CSVs de alertas gerados (A/B/C + consolidado)
+│   ├── dfir/                 # artefatos do Volatility (cmdline, netscan, dlllist...)
+│   └── IR_Reveal.md          # relatório completo do lab Reveal (DFIR)
+├── tests/                    # amostras mínimas p/ testar regras A/B
 ├── SECURITY.md
 └── README.md
+\`\`\`
 
 ---
 
 ## 5) Como rodar localmente
 
-```bash
+\`\`\`bash
 python3 -m venv .venv
 source .venv/bin/activate
 pip install pandas pyarrow jupyter
 jupyter notebook
-Abra notebooks/01_eda.ipynb. O dataset sintético está em data/paysim.parquet.
-(Para DFIR/Volatility, veja reports/dfir/ e o relatório reports/IR_Reveal.md.)
+\`\`\`
 
-6) 🧠 Rule Pack (v1) — AML & DFIR
-
-A) DFIR — WebDAV + rundll32 + PowerShell oculto (ampliada)
-
-Ideia: detectar LOLBAS (execução Living-off-the-Land).
-
-Fontes: reports/dfir/cmdline.txt + amostra em tests/dfir_cmdline_samples.txt.
-
-Status: 0 hits nos artefatos originais (sessão possivelmente fora da captura); 1 hit nas amostras de teste (prova de conceito).
-
-Saída: reports/alerts/dayX_ruleA_webdav_rundll32_ext.csv.
-
-B) DFIR — svchost.exe → HTTP externo (80/81/8000/8080/8888)
-
-Ideia: sinalizar svchost.exe falando com IP público em portas HTTP (padrão comum de abuso).
-
-Fontes: reports/dfir/netscan.txt + amostra em tests/dfir_netscan_samples.txt.
-
-Status: 0 hits no recorte original; 1 hit nas amostras de teste (prova de conceito).
-
-Saída: reports/alerts/dayX_ruleB_svchost_http_like_external.csv.
-
-C) AML — Burst 1h por CPF (entrega ativa)
-
-Ideia: sinalizar clientes com volume/valor atípico em janela de 60 min.
-
-Lógica (exemplo): tx_count_60m >= 4 ou amount_sum_60m >= 1000.
-
-Saída: reports/alerts/dayX_ruleC_aml_burst_1h.csv (dataset exemplo possui ≥1 linha).
-
-Uso didático: mostra agregação temporal, perfil por cliente e alertas reprodutíveis.
-
-7) 🕵️ DFIR (Reveal / Volatility 3)
-
-Relatório completo: reports/IR_Reveal.md
-
-Artefatos: reports/dfir/ (cmdline, netscan, dlllist, timeliner, extracts)
-
-Resumo dos achados
-
-LOLBAS confirmado: powershell.exe -windowstyle hidden + net use WebDAV + rundll32 de DLL remota.
-
-Rede externa: svchost.exe (PID 1260) com HTTP → 196.204.4.8:80.
-
-Persistência provável: Scheduled Task {ED77AEE0-EAFB-4133-B544-9E7C5632D902}.
-
-Recomendações
-Bloquear IOCs; habilitar Script Block Logging; ASR contra abuso de rundll32/WebDAV; WDAC/AppLocker.
-
-8) 🧪 Reprodutibilidade (testes mínimos)
-
-Amostras em tests/ garantem que as Regras A/B gerem pelo menos 1 alerta em ambiente controlado, provando a lógica e o scoring sem alterar evidências reais.
-
-9) 📚 Datasets
-
-PaySim (sintético) em data/paysim.parquet — base para regra C (AML) e evolução.
-Para artefatos DFIR, ver instruções em data/README_DATA.md.
+Abra \`notebooks/01_eda.ipynb\`. O dataset sintético está em \`data/paysim.parquet\`.  
+(Para DFIR/Volatility, veja \`reports/dfir/\` e o relatório \`reports/IR_Reveal.md\`.)
 
 ---
 
-Este repositório utiliza artefatos públicos de laboratório (Cyber Defenders) e/ou dados sintéticos para validação de regras.
-Nenhuma informação sensível de produção é incluída.
+## 6) 🧠 Rule Pack (v1) — AML & DFIR
 
-data/README_DATA.md
+**A) DFIR — WebDAV + rundll32 + PowerShell oculto (ampliada)**  
+- **Ideia:** detectar **LOLBAS** (execução Living-off-the-Land).  
+- **Fontes:** \`reports/dfir/cmdline.txt\` + amostra em \`tests/dfir_cmdline_samples.txt\`.  
+- **Status:** 0 hits nos artefatos originais (sessão possivelmente fora da captura); **1 hit** nas amostras de teste (**prova de conceito**).  
+- **Saída:** \`reports/alerts/dayX_ruleA_webdav_rundll32_ext.csv\`.
 
-# Dados / Artefatos
+**B) DFIR — svchost.exe → HTTP externo (80/81/8000/8080/8888)**  
+- **Ideia:** sinalizar \`svchost.exe\` falando com **IP público** em portas HTTP (padrão comum de abuso).  
+- **Fontes:** \`reports/dfir/netscan.txt\` + amostra em \`tests/dfir_netscan_samples.txt\`.  
+- **Status:** 0 hits no recorte original; **1 hit** nas amostras de teste (prova de conceito).  
+- **Saída:** \`reports/alerts/dayX_ruleB_svchost_http_like_external.csv\`.
 
-- **Artefato principal (DFIR):** dump de memória de Windows 10 (~2 GB) do Reveal Lab (Cyber Defenders).
-- **Uso:** colocar o arquivo em `raw_data/dfir/192-Reveal.dmp` (ou criar um symlink no mesmo caminho).
-- **Observação:** dados de laboratório, sem informações sensíveis de produção.
-- **AML:** dataset sintético `data/paysim.parquet` acompanha o repositório para demonstração de regras.
+**C) AML — Burst 1h por CPF (entrega ativa)**  
+- **Ideia:** sinalizar clientes com **volume/valor atípico** em janela de **60 min**.  
+- **Lógica (exemplo):** \`tx_count_60m >= 4\` **ou** \`amount_sum_60m >= 1000\`.  
+- **Saída:** \`reports/alerts/dayX_ruleC_aml_burst_1h.csv\` (dataset exemplo possui ≥1 linha).  
+- **Uso didático:** mostra **agregação temporal**, **perfil por cliente** e **alertas reprodutíveis**.
 
+---
+
+## 7) 🕵️ DFIR (Reveal / Volatility 3)
+
+- **Relatório completo:** \`reports/IR_Reveal.md\`  
+- **Artefatos:** \`reports/dfir/\` (cmdline, netscan, dlllist, timeliner, extracts)
+
+**Resumo dos achados**
+- **LOLBAS confirmado:** \`powershell.exe -windowstyle hidden\` + \`net use\` WebDAV + \`rundll32\` de DLL remota.  
+- **Rede externa:** \`svchost.exe\` (PID 1260) com HTTP → \`196.204.4.8:80\`.  
+- **Persistência provável:** **Scheduled Task** \`{ED77AEE0-EAFB-4133-B544-9E7C5632D902}\`.  
+
+**Recomendações**  
+Bloquear IOCs; habilitar **Script Block Logging**; **ASR** contra abuso de \`rundll32\`/WebDAV; **WDAC/AppLocker**.
+
+---
+
+## 8) 🧪 Reprodutibilidade (testes mínimos)
+
+Amostras em \`tests/\` garantem que as Regras **A/B** gerem pelo menos 1 alerta em ambiente **controlado**, provando a **lógica e o scoring** **sem alterar** evidências reais.
+
+---
+
+## 9) 📚 Datasets
+
+**PaySim (sintético)** em \`data/paysim.parquet\` — base para regra **C (AML)** e evolução.  
+Para artefatos DFIR, ver instruções em \`data/README_DATA.md\`.
+
+---
