@@ -10,8 +10,20 @@ DBPATH.parent.mkdir(exist_ok=True, parents=True)
 df = pd.read_parquet(DATASETS / "paysim_sample.parquet").copy()
 
 # Normaliza colunas esperadas (ajuste se seu CSV real tiver nomes diferentes)
-expected = ["ts","cpf","device_id","ip","asn","city","amount","currency",
-            "channel","merchant_id","beneficiary_id","type"]
+expected = [
+    "ts",
+    "cpf",
+    "device_id",
+    "ip",
+    "asn",
+    "city",
+    "amount",
+    "currency",
+    "channel",
+    "merchant_id",
+    "beneficiary_id",
+    "type",
+]
 for col in expected:
     if col not in df.columns:
         df[col] = None
@@ -24,7 +36,8 @@ con = sqlite3.connect(DBPATH)
 
 # Tabela de transações (drop/recreate)
 cur = con.cursor()
-cur.executescript("""
+cur.executescript(
+    """
 DROP TABLE IF EXISTS transactions;
 
 CREATE TABLE transactions(
@@ -48,13 +61,26 @@ CREATE INDEX idx_tx_ts       ON transactions(ts);
 CREATE INDEX idx_tx_device   ON transactions(device_id);
 CREATE INDEX idx_tx_ip       ON transactions(ip);
 CREATE INDEX idx_tx_city_asn ON transactions(city, asn);
-""")
+"""
+)
 con.commit()
 
-df[["ts","cpf","device_id","ip","asn","city","amount","currency",
-    "channel","merchant_id","beneficiary_id","type"]].to_sql(
-    "transactions", con, if_exists="append", index=False
-)
+df[
+    [
+        "ts",
+        "cpf",
+        "device_id",
+        "ip",
+        "asn",
+        "city",
+        "amount",
+        "currency",
+        "channel",
+        "merchant_id",
+        "beneficiary_id",
+        "type",
+    ]
+].to_sql("transactions", con, if_exists="append", index=False)
 
 # Vacuum para compactar
 cur.execute("VACUUM;")
