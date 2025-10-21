@@ -1,5 +1,4 @@
 # Reveal DFIR Volatility3 AML
-*(slug: case02)*
 
 > **IR - Análise de Memória (Reveal Lab — Cyber Defenders)**  
 > **Lab:** https://cyberdefenders.org/blueteam-ctf-challenges/reveal/
