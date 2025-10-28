@@ -1,0 +1,2 @@
+cpf,ts_1h,tx_count_60m,uniq_devices_60m,amount_sum_60m,rule,score,kind
+111,2025-09-01 10:00:00,4,2,1300,C_aml_burst_1h,1,aml_tx

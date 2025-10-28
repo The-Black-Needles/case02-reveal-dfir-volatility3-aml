@@ -1,0 +1,2 @@
+rule,score,kind,pid,process,args,raddr,rport,state
+B_svchost_http_external,1,dfir,1260,svchost.exe,,196.204.4.8,80,ESTABLISHED

@@ -1,48 +1,27 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.egg-info/
+# ---- Ambientes locais / IDE / SO
 .venv/
-.env
-.venv*/
-.env*/
-
-# Jupyter
+env/
+venv/
+__pycache__/
 .ipynb_checkpoints/
-
-# macOS
 .DS_Store
-
-# Dados/artefatos grandes (mantidos fora do Git)
-datasets/
-raw_data/
-reports/*.html
-reports/*.pdf
-*.parquet
-*.csv
-*.xlsx
-*.zip
-
-# VS Code
 .vscode/
+.idea/
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.coverage
+.pytest_cache/
+.mypy_cache/
+dist/
+build/
 
-# Ignore local SQLite databases and data artifacts
-
-# nunca versionar currículos
+# ---- Arquivos sensíveis pessoais (nunca versionar currículos)
 resume/
-*.pdf
 *.docx
-
-# nunca versionar currículos
-resume/
 *.pdf
-*.docx
-!data/paysim.parquet
 
-# data: ignore tudo, exceto exemplos essenciais
-!data/
-data/*
-!data/.gitkeep
-!data/paysim.parquet
+# ---- Git keepers permitidos
+!.gitkeep

