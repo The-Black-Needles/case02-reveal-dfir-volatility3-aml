@@ -25,3 +25,4 @@ resume/
 
 # ---- Git keepers permitidos
 !.gitkeep
+*.bak.*
