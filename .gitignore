@@ -40,3 +40,4 @@ resume/
 resume/
 *.pdf
 *.docx
+!data/paysim.parquet
