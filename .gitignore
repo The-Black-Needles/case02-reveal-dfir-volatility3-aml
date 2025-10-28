@@ -29,7 +29,6 @@ reports/*.pdf
 .vscode/
 
 # Ignore local SQLite databases and data artifacts
-data/
 
 # nunca versionar currículos
 resume/
@@ -40,4 +39,10 @@ resume/
 resume/
 *.pdf
 *.docx
+!data/paysim.parquet
+
+# data: ignore tudo, exceto exemplos essenciais
+!data/
+data/*
+!data/.gitkeep
 !data/paysim.parquet
