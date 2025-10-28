@@ -42,7 +42,7 @@ Portfólio prático focado em cibersegurança defensiva, cobrindo **antifraude/A
 4. **Investigação & correlação** (timeline, IoCs)  
 5. **Documentação & ajuste** (relatório, versões, testes)
 
-**Reprodutibilidade - GitHub Codespaces (zero setup local)**
+### Reprodutibilidade - GitHub Codespaces (zero setup local)
 
 Abra o repositório no GitHub → Code → Create codespace on main.
 No terminal do Codespaces:
