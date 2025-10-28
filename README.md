@@ -43,6 +43,18 @@ Portfólio prático focado em cibersegurança defensiva, cobrindo **antifraude/A
 5. **Documentação & ajuste** (relatório, versões, testes)
 
 **Reprodutibilidade**  
+
+### GitHub Codespaces (zero setup local)
+
+Abra o repositório no GitHub → Code → Create codespace on main.
+No terminal do Codespaces:
+
+```bash
+pip install -r requirements.txt
+python scripts/run_rules_min.py
+```
+
+Abra notebooks/01_eda.ipynb pelo Jupyter do Codespaces.
 - **Notebooks** em `notebooks/` (receita passo a passo)  
 - **CSVs** em `reports/` (resultados abríveis como planilha)  
 - **Versionamento** no GitHub (histórico de mudanças)  
