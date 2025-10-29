@@ -2,6 +2,7 @@
 
 > **IR - Análise de Memória (Reveal Lab — Cyber Defenders)**  
 > **Lab:** https://cyberdefenders.org/blueteam-ctf-challenges/reveal/
+> 
 
 ## 1) Sumário Executivo
 
@@ -15,6 +16,9 @@ Identificar **processos/linhas de comando**, **conexões externas**, sinais de *
 - **Objetivo:** compreender **natureza**, **sistemas afetados**, **cronologia** e **impacto** para mitigar risco e endereçar **causa-raiz**.  
 - **Âmbito:** alerta do **SIEM** em estação com dados financeiros; **artefato** analisado: dump de memória (~2 GB) de **Windows 10**.  
 - **Ferramenta:** **Volatility 3** (arquitetura de plugins + tabelas de símbolos) para interpretar estruturas do SO e extrair evidências.
+
+## Relatório completo:
+➡️ reports/IR_Reveal.md
 
 ---
 
