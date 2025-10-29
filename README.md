@@ -108,7 +108,7 @@ Abra notebooks/01_eda.ipynb pelo Jupyter do Codespaces.
 
 ## 7) 🕵️ DFIR (Reveal / Volatility 3)
 
-- **Relatório completo:** \`reports/IR_Reveal.md\`  
+- **Relatório completo:** ➡️ [reports/IR_Reveal.md](https://github.com/The-Black-Needles/case02-reveal-dfir-volatility3-aml/blob/main/reports/IR_Reveal.md)`  
 - **Artefatos:** \`reports/dfir/\` (cmdline, netscan, dlllist, timeliner, extracts)
 
 **Resumo dos achados**
