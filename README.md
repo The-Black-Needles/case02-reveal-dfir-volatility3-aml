@@ -46,22 +46,6 @@ Portfólio prático focado em cibersegurança defensiva, cobrindo **antifraude/A
 4. **Investigação & correlação** (timeline, IoCs)  
 5. **Documentação & ajuste** (relatório, versões, testes)
 
-### Reprodutibilidade - GitHub Codespaces (zero setup local)
-
-Abra o repositório no GitHub → Code → Create codespace on main.
-No terminal do Codespaces:
-
-```bash
-pip install -r requirements.txt
-python scripts/run_rules_min.py
-```
-
-Abra notebooks/01_eda.ipynb pelo Jupyter do Codespaces.
-- **Notebooks** em `notebooks/` (receita passo a passo)  
-- **CSVs** em `reports/` (resultados abríveis como planilha)  
-- **Versionamento** no GitHub (histórico de mudanças)  
-- **Harness de testes** em `tests/` (amostras sintéticas) para validar detecções **sem alterar** evidências reais
-
 ---
 
 ## 4) Conteúdo do repositório
@@ -82,18 +66,22 @@ Abra notebooks/01_eda.ipynb pelo Jupyter do Codespaces.
 
 ---
 
-## 5) Como rodar localmente (bash)
+## 5) 🧪 Reprodutibilidade - GitHub Codespaces 
 
+Abra o repositório no GitHub → Code → Create codespace on main.
+No terminal do Codespaces:
+
+```bash
+pip install -r requirements.txt
+python scripts/run_rules_min.py
 ```
-python3 -m venv .venv
-source .venv/bin/activate
-pip install pandas pyarrow jupyter
-jupyter notebook
-```
 
-Abra \`notebooks/01_eda.ipynb\`. O dataset sintético está em \`data/paysim.parquet\`.  
-(Para DFIR/Volatility, veja \`reports/dfir/\` e o relatório \`reports/IR_Reveal.md\`.)
-
+Abra notebooks/01_eda.ipynb pelo Jupyter do Codespaces.
+- **Notebooks** em `notebooks/` (receita passo a passo)  
+- **CSVs** em `reports/` (resultados abríveis como planilha)  
+- **Versionamento** no GitHub (histórico de mudanças)  
+- **Harness de testes** em `tests/` (amostras sintéticas) para validar detecções **sem alterar** evidências reais.
+  
 ---
 
 ## 6) 🧠 Rule Pack (v1) — AML & DFIR
@@ -130,18 +118,3 @@ Abra \`notebooks/01_eda.ipynb\`. O dataset sintético está em \`data/paysim.par
 
 **Recomendações**  
 Bloquear IOCs; habilitar **Script Block Logging**; **ASR** contra abuso de \`rundll32\`/WebDAV; **WDAC/AppLocker**.
-
----
-
-## 8) 🧪 Reprodutibilidade (testes mínimos)
-
-Amostras em \`tests/\` garantem que as Regras **A/B** gerem pelo menos 1 alerta em ambiente **controlado**, provando a **lógica e o scoring** **sem alterar** evidências reais.
-
----
-
-## 9) 📚 Datasets
-
-**PaySim (sintético)** em \`data/paysim.parquet\` — base para regra **C (AML)** e evolução.  
-Para artefatos DFIR, ver instruções em \`data/README_DATA.md\`.
-
----
